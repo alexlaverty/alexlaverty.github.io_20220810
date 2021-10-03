@@ -46,6 +46,3 @@ html = template.render(last_updated=datetime_Aus.strftime("%A, %d/%m/%Y %I:%M:%S
 
 with open("index.html", "w") as fh:
     fh.write(html)
-
-with open("archive/" + datetime_Aus.strftime("%Y%m%d") + ".html", "w") as fh:
-    fh.write(html)
