@@ -39,7 +39,7 @@ html = template.render(last_updated=datetime_Aus.strftime("%A, %d/%m/%Y %I:%M:%S
                        bmi=bmi,
                        weight=weight)
 
-print(html)
+#print(html)
 
 with open("index.html", "w") as fh:
     fh.write(html)
