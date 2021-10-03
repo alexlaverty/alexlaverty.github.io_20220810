@@ -4,6 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 import argparse
 import pandas as pd
+from datetime import datetime
+import pytz
 
 class seabreeze():
 
@@ -229,8 +231,13 @@ if __name__ == "__main__":
     df_style.hide_columns(["minTemp", "maxTemp","moonPhase","shortDesc","sunrise","sunset"])
     
     html = df_style.format().set_table_styles([cell_hover, headers])
-
+    tz_Aus = pytz.timezone('Australia/Sydney')
+    datetime_Aus = datetime.now(tz_Aus)
+    
+    html = html.render()
+    last_updated_time  = "Page last updated :" + datetime_Aus.strftime("%A, %d/%m/%Y %I:%M:%S %p")
+    html = last_updated_time + html
     #write html to file
     text_file = open("surf/index.html", "w")
-    text_file.write(html.render())
+    text_file.write(html)
     text_file.close()
