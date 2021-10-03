@@ -8,9 +8,6 @@ on:
       - 'surf/**'
     branches:
       - main
-    paths-ignore:
-      - .gitignore
-      - README.md
 jobs:
   build:
     runs-on: ubuntu-latest
