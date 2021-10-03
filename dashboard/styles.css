@@ -3,8 +3,9 @@ background: #f6faff;
 }
 
 /*-- --*/
-.container {
 
+img {max-width:100%;}
+.container {
 
 /* background-color: darkslategrey; */
 padding: 1rem;
