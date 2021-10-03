@@ -10,6 +10,9 @@ FITBIT_CONSUMER_KEY = os.environ['FITBIT_CONSUMER_KEY']
 FITBIT_CONSUMER_SECRET = os.environ['FITBIT_CONSUMER_SECRET']
 FITBIT_REFRESH_TOKEN = os.environ['FITBIT_REFRESH_TOKEN']
 
+print(FITBIT_CONSUMER_KEY)
+print(FITBIT_REFRESH_TOKEN)
+
 tz_Aus = pytz.timezone('Australia/Sydney')
 datetime_Aus = datetime.now(tz_Aus)
 today = datetime_Aus.strftime("%Y-%m-%d")
