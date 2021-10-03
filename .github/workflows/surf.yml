@@ -1,9 +1,11 @@
-name: CICD
+name: Surf
 
 on:
   schedule:
     - cron: '0 6 * * *' # runs at 12:00 UTC everyday
   push:
+    paths:
+      - 'surf/**'
     branches:
       - main
     paths-ignore:
@@ -25,17 +27,20 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
-          
+          pip install -r requirements.txt
+        working-directory: ./surf
+
       - name: execute py script # run sj-gobierno.py to get the latest data
-        run: python scripts/surf.py
+        run: python surf.py
+        working-directory: ./surf
           
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Scheduled Update" -a
+          git commit -m "Surf Update" -a
+        working-directory: ./surf
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0

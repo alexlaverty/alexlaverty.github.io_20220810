@@ -1,0 +1,56 @@
+name: Dashboard
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # runs at 12:00 UTC everyday
+  push:
+    paths:
+      - 'dashboard/**'
+    branches:
+      - main
+    paths-ignore:
+      - .gitignore
+      - README.md
+jobs:
+  build:
+    env:
+      working-directory: ./dashboard
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7.7' # install the python version needed
+          
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        working-directory: ${{env.working-directory}}
+
+      - name: execute py script # run sj-gobierno.py to get the latest data
+        run: python dashboard.py
+        working-directory: ${{env.working-directory}}
+        env:
+          FITBIT_ACCESS_TOKEN: ${{ secrets.FITBIT_ACCESS_TOKEN }}
+          FITBIT_CONSUMER_KEY: ${{ secrets.FITBIT_CONSUMER_KEY }}
+          FITBIT_CONSUMER_SECRET: ${{ secrets.FITBIT_CONSUMER_SECRET }}
+          FITBIT_REFRESH_TOKEN: ${{ secrets.FITBIT_REFRESH_TOKEN }}
+
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Dashboard Update" -a
+        working-directory: ${{env.working-directory}}
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  
