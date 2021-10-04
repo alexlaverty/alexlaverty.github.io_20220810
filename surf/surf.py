@@ -238,6 +238,6 @@ if __name__ == "__main__":
     last_updated_time  = "Page last updated :" + datetime_Aus.strftime("%A, %d/%m/%Y %I:%M:%S %p")
     html = last_updated_time + html
     #write html to file
-    text_file = open("surf/index.html", "w")
+    text_file = open("index.html", "w")
     text_file.write(html)
     text_file.close()
