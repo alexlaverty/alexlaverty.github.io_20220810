@@ -2,7 +2,7 @@ name: Surf
 
 on:
   schedule:
-    - cron: '0 6 * * *' # runs at 12:00 UTC everyday
+    - cron: '0 19 * * *' # runs at 12:00 UTC everyday
   push:
     paths:
       - 'surf/**'
