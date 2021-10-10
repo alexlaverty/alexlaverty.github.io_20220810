@@ -48,7 +48,9 @@ print(soup)
 
 Copy and paste this view-source link into your chrome browser to see what that html code looks like :
 
-<view-source:https://www.seabreeze.com.au/weather/wind-forecast/sydney>
+```
+view-source:https://www.seabreeze.com.au/weather/wind-forecast/sydney
+```
 
 ## Parsing the JSON Data
 
