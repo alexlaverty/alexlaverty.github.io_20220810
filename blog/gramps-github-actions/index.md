@@ -14,6 +14,7 @@
   - [Viewing the Github Actions Workflow Build Status](#viewing-the-github-actions-workflow-build-status)
   - [Browsing Your Generated Gramps Website](#browsing-your-generated-gramps-website)
   - [Other Options When Generating Gramps Website](#other-options-when-generating-gramps-website)
+  - [Updating Your Gramps Website](#updating-your-gramps-website)
 
 ## Introduction
 
@@ -310,3 +311,10 @@ Using options string: name=navwebpage,show=living_people
       3 Complete names replaced, and data removed
       0 Not included
 ```
+
+## Updating Your Gramps Website 
+
+Once you have this pipeline setup and configured and successfully building and publish, 
+all you will need to do is push an updated encrypted 7Zip file with your updated GEDCOM file.
+This will trigger the build to run and regenerate and publish your Gramps Narrated Website updates.
+
