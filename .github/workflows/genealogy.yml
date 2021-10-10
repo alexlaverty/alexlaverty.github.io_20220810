@@ -1,0 +1,42 @@
+name: Genealogy
+
+on:
+  push:
+    paths:
+      - 'genealogy/**'
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: alexlaverty/alexlaverty:1.0.1
+    env:
+      working-directory: ./genealogy
+    steps:
+
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+         
+      - name: Generate Gramps Narrated Website
+        run: |
+          7z x gramps.7z -p$GRAMPS_ZIP_PASSWORD -y
+          # Workaround for bug in database name in Gramps generic.py
+          sed -i 's/name.txt/database.txt/g' /usr/lib/python3/dist-packages/gramps/gen/db/generic.py
+          gramps -i gramps.ged -a report -p name=navwebpage,incl_private=False,living_people=2,target=./
+          rm -f gramps.ged
+        working-directory: ${{env.working-directory}}
+        env:
+          GRAMPS_ZIP_PASSWORD: ${{ secrets.GRAMPS_ZIP_PASSWORD }}
+
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Genealogy Update" -a
+        working-directory: ${{env.working-directory}}
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
