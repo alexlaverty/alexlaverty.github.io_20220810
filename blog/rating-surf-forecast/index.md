@@ -20,7 +20,7 @@ It can take a little while to look at each day and use my mouse to hover over th
 
 I wanted to see if I could write a script that would scrape this data for me, put it into a table, apply my personal surf condition preferences to the table and also filter out days where the surf was bad and make it accessible on this website, the end result is this report :
 
-https://alexlaverty.github.io/surf/index.html
+<https://alexlaverty.github.io/surf/index.html>
 
 Green is good, red is bad, the more green cells on a row, the better the conditions will be.
 
