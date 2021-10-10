@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: alexlaverty/alexlaverty:1.0.1
     env:
       working-directory: ./genealogy
     steps:
@@ -16,7 +17,6 @@ jobs:
         uses: actions/checkout@v2 # checkout the repository content to github runner
          
       - name: Generate Gramps Narrated Website
-        uses: docker://alexlaverty/alexlaverty:1.0.1
         run: |
           7z x gramps.7z -p$GRAMPS_ZIP_PASSWORD -y
           # Workaround for bug in database name in Gramps generic.py
