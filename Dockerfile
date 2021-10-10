@@ -7,4 +7,3 @@ RUN apt-get update -y && \
             gramps \
             python3-pip \
             p7zip-full
- 
