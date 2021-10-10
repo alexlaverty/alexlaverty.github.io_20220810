@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: alexlaverty/alexlaverty:1.0.1
+    container: alexlaverty/alexlaverty:1.0.2
     env:
       working-directory: ./genealogy
     steps:
