@@ -7,6 +7,8 @@
   - [Parsing the JSON Data](#parsing-the-json-data)
   - [Adding Data to Pandas Data Frame](#adding-data-to-pandas-data-frame)
   - [Figuring out Weird Wave and Wind Data Structure](#figuring-out-weird-wave-and-wind-data-structure)
+  - [Export Dataframe as a HTML Table with CSS Styling](#export-dataframe-as-a-html-table-with-css-styling)
+  - [Generate Deployment on a Daily Schedule Using Github Action Workflow](#generate-deployment-on-a-daily-schedule-using-github-action-workflow)
 
 ## Introduction
 
@@ -319,6 +321,8 @@ Once we've done the same for the wind we can then merge the DF's together
 df_wave = df_wave.merge(df_wind, how='left', on=['hour','minute'])
 ```
 
+## Export Dataframe as a HTML Table with CSS Styling
+
 Now that we have a dataframe we our wave forecast data we can then export it as a html file and apply some colour styling to it
 
 Configuring some CSS styling and colors 
@@ -404,6 +408,7 @@ https://alexlaverty.github.io/surf/index.html
 
 ![](2021-10-10-18-59-48.png)
 
+## Generate Deployment on a Daily Schedule Using Github Action Workflow
 
 Now to get this report running everyday, we use my new favourite thing, Github Actions, and we schedule the script to run once a day.
 
