@@ -26,13 +26,13 @@ Green is good, red is bad, the more green cells on a row, the better the conditi
 
 ## Choosing a Programming Language
 
-This script could be written using various programming languages, I am currently learning Python so I have chosen it to write the script, Python also has the Pandas library at our disposal which is pretty powerful. 
+This script could be written using various programming languages, I am currently learning Python so I have chosen it to write the script, [Python](https://www.python.org/) also has the [Pandas](https://pandas.pydata.org/) library at our disposal which is pretty powerful. 
 
 ## Scraping Forecast Data with BeautifulSoup
 
-To get started we will scrape the surf forecast data using the python library BeautifulSoup.
+To get started we will scrape the surf forecast data using the python library [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/).
 
-This snippet of code will connect to the Seabreeze forecast for Sydney and retrieve the websites HTML code :
+This snippet of code will connect to the [Seabreeze forecast for Sydney](https://www.seabreeze.com.au/weather/wind-forecast/sydney) and retrieve the websites HTML code :
 
 ```
 from bs4 import BeautifulSoup
@@ -56,9 +56,9 @@ Scrolling through the HTML I can see a bunch of interesting data embedded in JSO
 
 ![](2021-10-10-17-51-59.png)
 
-Using regex I grab `script` instances that match the text with the following expression `var json={.*};`
+Using [regex](https://docs.python.org/3/library/re.html) I grab `script` instances that match the text with the following expression `var json={.*};`
 
-I was having trouble parsing this text as JSON so had to do some string replacing to get it working,
+I was having trouble parsing this text as [JSON](https://www.json.org/json-en.html) so had to do some string replacing to get it working,
 
 I'm sure there's a better regex expression that could exactly match what I needed, but that can be a future improvement.
 
@@ -128,7 +128,7 @@ Possible shower.
 
 ## Adding Data to Pandas Data Frame
 
-Now that we can get values we want it's time to create a Pandas Dataframe and add the values in.
+Now that we can get values we want it's time to create a [Pandas Dataframe](https://www.geeksforgeeks.org/python-pandas-dataframe/) and add the values in.
 If you are not across Dataframes think Excel Spreadsheet, like a table that has Columns and Rows that you can perform operations on.
 
 Here we'll define the Column headers, loop through the forecast and append our values to a Python List `data = []`, then convert that python list to a dataframe and then print the contents of the dataframe.
