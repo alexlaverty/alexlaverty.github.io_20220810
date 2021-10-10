@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'genealogy/**'
+      - '.github/workflows/genealogy.yml'
     branches:
       - main
 jobs:
