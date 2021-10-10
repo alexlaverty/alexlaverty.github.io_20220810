@@ -1,6 +1,6 @@
 # Alex Laverty
 
-* [Surf Forecast Rating](surf/index.html)
+* [Sydney Surf Forecast Rating](surf/index.html)
 * [Genealogy](genealogy)
 
 ## Blog Posts
