@@ -41,7 +41,7 @@ Give your repository a name, give it a description if you want, click Public, ti
 
 ## Enable Github Pages
 
-In your repository click Settings 
+Now we'll enable the ability for this repository to host a simple static html website by enabling Github Pages, In your repository click Settings 
 
 ![](2021-10-11-19-55-51.png)
 
