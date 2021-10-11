@@ -108,6 +108,9 @@ Verify the destination of the gramps export and click **close**
 
 ![](2021-10-11-20-19-36.png)
 
+> You can view this example GEDCOM file here 
+> https://github.com/alexlaverty/gramps/blob/main/gramps.ged
+
 ## Create A Github Actions Workflow Config
 
 Now we will create a Github Workflow, the purpose of which, is it will trigger a build on checkin and compile the Gramps Narrated Website, the build will run on a ubuntu linux server inside a docker container that has gramps installed in it, the website will be generated via the Gramps CLI.
