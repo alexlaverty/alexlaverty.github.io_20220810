@@ -18,14 +18,17 @@
 
 ## Introduction
 
-This tutorial will demonstrate how to deploy a Gramps Narrated Website to Github Pages using Github Actions Workflow.
+The Gramps opensource genealogy software allows you to export your family tree as a static html website, this tutorial will demostrate how to use the Gramps CLI, Github, Github Pages and Github Action Workflow to automate part
 
 ## What are the benefits of doing this?
 
-* Github Pages is a static website hosting platform that is fast, free and resilient.
-* Github Actions will automatically trigger on GEDCOM file checkin to compile and publish the Gramps Narrated website.
-* Github will keep a revision history of all your checkins that you can restore if required.
-* Github makes it easier for multiple users to work together
+* Free website hosting on Github Pages
+
+* Benefits of using Githubs source control system
+
+* Version history you can restore from if needed
+
+* You can check in a GEDCOM file and it will build and publish the website for you
 
 ## Creating a Github Repository 
 
@@ -33,7 +36,7 @@ Log into your github account and create a new repository
 
 ![](2021-10-11-19-53-18.png)
 
-Give your repository a name, give it a description if you want, click Public, tick Add a README.md file, click Create Repository
+Give your repository a name, give it a description if you want, click **Public**, tick **Add a README.md file**, click **Create Repository**
 
 ![](2021-10-11-19-54-22.png)
 
@@ -42,11 +45,11 @@ Give your repository a name, give it a description if you want, click Public, ti
 
 ## Enable Github Pages
 
-Now we'll enable the ability for this repository to host a simple static html website by enabling Github Pages, In your repository click Settings 
+Now we'll enable the ability for this repository to host a simple static html website by enabling Github Pages, In your repository click **Settings** 
 
 ![](2021-10-11-19-55-51.png)
 
-In Settings, click Pages, for Branch select Main, click Save
+In **Settings**, click **Pages**, for Branch select **Main**, click **Save**
 
 ![](2021-10-11-19-56-35.png)
 
@@ -56,7 +59,7 @@ Take note of the URL for your Gramps website
 
 ## Git Clone Your Gramps Repo
 
-Click the Code tab, click the green Code button, copy the repository URL 
+Click the **Code** tab, click the green Code button, copy the repository URL 
 
 ![](2021-10-11-19-59-29.png)
 
@@ -76,7 +79,7 @@ Receiving objects: 100% (3/3), done.
 
 Open up Gramps application and export your family tree as a GEDCOM file into your cloned gramps repository
 
-In the Gramps application click Family Trees -> Export
+In the Gramps application click **Family Trees -> Export**
 
 ![](2021-10-11-20-09-16.png)
 
@@ -92,16 +95,16 @@ Click Next
 
 ![](2021-10-11-20-14-31.png)
 
-For name enter gramps.ged, for the folder destination select the gramps github repo we cloned in the previous steps, click next
+For name enter gramps.ged, for the folder destination select the gramps github repo we cloned in the previous steps, click **next**
 
 ![](2021-10-11-20-16-43.png)
 
 
-Click Apply 
+Click **Apply** 
 
 ![](2021-10-11-20-18-55.png)
 
-Verify the destination of the gramps export and click close
+Verify the destination of the gramps export and click **close**
 
 ![](2021-10-11-20-19-36.png)
 
@@ -221,12 +224,12 @@ To https://github.com/alexlaverty/gramps.git
 ## Verify GitHub Actions WorkFlow Build
 
 Once you have successfully pushed your gedcom and gramps.yml file up into your github repository,
-browse your Github repository, click the Actions tab, click the Gramps workflow and you should see a build, click the build link
+browse your Github repository, click the **Actions** tab, click the Gramps workflow and you should see a build, click the build link
 
 ![](2021-10-11-20-45-42.png)
 
 
-Click build
+Click **build**
 
 ![](2021-10-11-20-46-54.png)
 
