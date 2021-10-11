@@ -264,3 +264,5 @@ git push
 Once the build has completed, refresh your browser and the new updates will appear in your Gramps Narrated Website
 
 ![](2021-10-11-21-01-34.png)
+
+{% include disqus.html %}
