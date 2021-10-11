@@ -1,5 +1,7 @@
 # Deploying Gramps on Github Pages Using Github Action Workflow
 
+![](2021-10-11-21-51-24.png)
+
 - [Deploying Gramps on Github Pages Using Github Action Workflow](#deploying-gramps-on-github-pages-using-github-action-workflow)
   - [Introduction](#introduction)
   - [What are the benefits of doing this?](#what-are-the-benefits-of-doing-this)
