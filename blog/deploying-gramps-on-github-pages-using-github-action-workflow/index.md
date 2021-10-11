@@ -261,7 +261,9 @@ git commit -m "Added Ronald and Emily Smith"
 git push
 ```
 
-Once the build has completed, refresh your browser and the new updates will appear in your Gramps Narrated Website
+Once the build has completed, refresh your browser and the new updates will appear in your Gramps Narrated Website.
+
+If you have any questions please comment below.
 
 ![](2021-10-11-21-01-34.png)
 
