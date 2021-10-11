@@ -13,7 +13,6 @@
   - [Verify GitHub Actions WorkFlow Build](#verify-github-actions-workflow-build)
   - [Browse Your Gramps Narrated Website](#browse-your-gramps-narrated-website)
   - [Pushing Updates To Your Gramps Website](#pushing-updates-to-your-gramps-website)
-- [](#)
 
 ## Introduction
 
@@ -106,13 +105,21 @@ Verify the destination of the gramps export and click close
 
 ## Create A Github Actions Workflow Config
 
-Now inside your gramps repo folder, create the following folders and a yml config "
+Now we will create a Github Workflow, the purpose of which, is it will trigger a build on checkin and compile the Gramps Narrated Website, the build will run on a ubuntu linux server inside a docker container that has gramps installed in it, the website will be generated via the Gramps CLI.
+
+Inside your gramps repo folder, create the following folders and a yml config file.
 
 ```
 .github/workflows/gramps.yml
 ```
 
 Save the following Github Action Workflow config into the gramps.yml file
+
+
+```
+gramps -i gramps.ged -a report -p name=navwebpage,target=./
+``` 
+and the resulting html files will be commited and pushed to the github repo.
 
 ```
 name: Gramps
@@ -255,7 +262,3 @@ git push
 Once the build has completed, refresh your browser and the new updates will appear in your Gramps Narrated Website
 
 ![](2021-10-11-21-01-34.png)
-
-
-# 
-
