@@ -173,7 +173,7 @@ So I have added the following workaround which fixes the issue
 
 ```
 # Workaround for bug in database name in Gramps generic.py
-sed -i 's/name.txt/database.txt/g' /usr/lib/python3/
+sed -i 's/name.txt/database.txt/g' /usr/lib/python3/dist-packages/gramps/gen/db/generic.py
 ```
 
 
@@ -182,7 +182,7 @@ sed -i 's/name.txt/database.txt/g' /usr/lib/python3/
 
 ## Push Files Up Into Github Repo
 
-Now from with the gramps folder in cmd prompt commit the changes and push them up into the gramps github repo
+Now from within the gramps folder in cmd prompt commit the changes and push them up into the gramps github repo
 
 ```
 git status
