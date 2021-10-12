@@ -34,7 +34,7 @@ To get started we will scrape the surf forecast data using the python library [B
 
 This snippet of code will connect to the [Seabreeze forecast for Sydney](https://www.seabreeze.com.au/weather/wind-forecast/sydney) and retrieve the websites HTML code :
 
-```
+```python
 from bs4 import BeautifulSoup
 import requests 
 
@@ -64,7 +64,7 @@ I was having trouble parsing this text as [JSON](https://www.json.org/json-en.ht
 
 I'm sure there's a better regex expression that could exactly match what I needed, but that can be a future improvement.
 
-```
+```python
 # Needs a better regex expression
 pattern = re.compile(r'var json={.*};', re.DOTALL)
 
@@ -94,7 +94,7 @@ Denison', 'width': 1080, 'height': 473, 'aspectRatio': 0.438, 'imageUrl': '//res
 
 if we focus in on the forecast we can then access each day individually :
 
-```
+```python
 forecast = json["forecasts"][0]["forecast"]
 
 for day in forecast:
@@ -110,7 +110,7 @@ for day in forecast:
 
 We can then also start accessing individual values :
 
-```
+```python
 forecast = json["forecasts"][0]["forecast"]
 
 for day in forecast:
@@ -139,7 +139,7 @@ This Stackoverflow page discusses why it's better to append to a list and then c
 
 [Stackoverflow - Create a Pandas Dataframe by appending one row at a time](https://stackoverflow.com/a/17496530)
 
-```
+```python
 headers = [
             'localDate',
             'day',
@@ -263,31 +263,31 @@ Ok cool, now how do I split this string of numbers every 4 or 5 values and split
 
 Split the wave data on the comma delimiter, 
 
-```
+```python
 wave_data = day['waves'].split(",")
 ```
 
 delete the first value that signifies the chart or series, because I don't need it
 
-```
+```python
 del wave_data[0]
 ```
 
 Then we [Split Python list every Nth element](https://stackoverflow.com/questions/26945277/how-to-split-python-list-every-nth-element)
 
-```
+```python
 wave_data = [wave_data[i:i+5] for i in range(0, len(wave_data), 5)]
 ```
 
 Setup some dataframe headers 
 
-```
+```python
 headers = ['hour','minute','waveheight','wavedirection','waveperiod']
 ```
 
 create DF using the wave data and headers 
 
-```
+```python
 df_wave = pd.DataFrame(wave_data,columns=headers)
 ```
 
@@ -329,7 +329,7 @@ Now that we have a dataframe we our wave forecast data we can then export it as 
 
 Configuring some CSS styling and colors 
 
-```
+```python
 cell_hover = {  # for row hover use <tr> instead of <td>
     'selector': 'td:hover',
     'props': [('background-color', '#ffffb3')]
@@ -346,7 +346,7 @@ headers = {
 
 Converting some columns to numbers 
 
-```
+```python
 s.dataframe["hour"] = pd.to_numeric(s.dataframe["hour"])
 s.dataframe["minute"] = pd.to_numeric(s.dataframe["minute"])
 ```
@@ -360,7 +360,7 @@ Surf conditions I wanted included in the final report :
 * I don't want to go to the beach when it's raining so I chose 70% chance of rain as my limit.
 * I don't like when waves are too big so include rows where the surf is under 2 meters.
 
-```
+```python
 df_filtered = s.dataframe[s.dataframe.knots < 15 ]
 df_filtered = df_filtered[(df_filtered['hour'] >= 6) & (df_filtered['hour'] <= 18)]
 df_filtered = df_filtered[df_filtered.probabilityPrecip <= 70 ]
@@ -369,7 +369,7 @@ df_filtered = df_filtered[df_filtered.waveheight < 2 ]
 
 Apply color styling to the table cells with rules similar to above, Green if the condition is favourable, Red if the condition is unfavourable.
 
-```
+```python
 with pd.option_context('display.precision', 1):
     df_style = df_filtered.style
 
@@ -387,7 +387,7 @@ df_style.applymap(lambda x: f"background-color: {'lightgreen' if x < 2 else '#ff
 
 I want a timestamp when the report is generated so I know it's current 
 
-```
+```python
 tz_Aus = pytz.timezone('Australia/Sydney')
 datetime_Aus = datetime.now(tz_Aus)
 
