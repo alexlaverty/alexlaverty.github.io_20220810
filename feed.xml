@@ -1,0 +1,263 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Alex Laverty</title>
+  <subtitle></subtitle>
+  <updated>2021-12-13T21:14:57+11:00</updated>
+  <author>
+    <name>Alex Laverty</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
+  <rights> © 2021 Alex Laverty </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Creating a Daily Surf Rating Report</title>
+    <link href="http://localhost:4000/rating-surf-forecast/" rel="alternate" type="text/html" title="Creating a Daily Surf Rating Report" />
+    <published>2021-12-12T14:33:00+11:00</published>
+  
+    <updated>2021-12-12T14:33:00+11:00</updated>
+  
+    <id>http://localhost:4000/rating-surf-forecast/</id>
+    <content src="http://localhost:4000/rating-surf-forecast/" />
+    <author>
+      <name>{"name"=>"Alex Laverty", "link"=>"https://alexlaverty.github.io"}</name>
+    </author>
+
+  
+    
+    <category term="programming" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Introduction
+  Choosing a Programming Language
+  Scraping Forecast Data with BeautifulSoup
+  Parsing the JSON Data
+  Adding Data to Pandas Data Frame
+  Figuring out Weird Wave and Wind Data Structure
+  Export Dataframe as a HTML Table with CSS Styling
+  Generate Deployment on a Daily Schedule Using Github Action Workflow
+
+
+Introduction
+
+I like to go to the beach and often find myself checkin...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Generating a Gramps Website with Github Actions Workflow</title>
+    <link href="http://localhost:4000/gramps-github-actions/" rel="alternate" type="text/html" title="Generating a Gramps Website with Github Actions Workflow" />
+    <published>2021-12-12T14:33:00+11:00</published>
+  
+    <updated>2021-12-12T14:33:00+11:00</updated>
+  
+    <id>http://localhost:4000/gramps-github-actions/</id>
+    <content src="http://localhost:4000/gramps-github-actions/" />
+    <author>
+      <name>{"name"=>"Alex Laverty", "link"=>"https://alexlaverty.github.io"}</name>
+    </author>
+
+  
+    
+    <category term="genealogy" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Introduction
+  Download and install Gramps
+  Add Your Family Members to Gramps
+  Export Gramps Family Tree as a GEDCOM file
+  Generate Gramps Narrated Website Locally
+  Encrypt GEDCOM file
+  Create a Github Pages Website
+  Set the ZIP Password as a Repository Secret
+  Create Github Action Workflow YML Config
+  Docker Image with Gramps Depenencies Installed
+  Viewing the Github Actions Workfl...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Deploying Gramps on Github Pages Using Github Action Workflow</title>
+    <link href="http://localhost:4000/deploying-gramps-on-github-pages-using-github-action-workflow/" rel="alternate" type="text/html" title="Deploying Gramps on Github Pages Using Github Action Workflow" />
+    <published>2021-12-12T14:33:00+11:00</published>
+  
+    <updated>2021-12-12T14:33:00+11:00</updated>
+  
+    <id>http://localhost:4000/deploying-gramps-on-github-pages-using-github-action-workflow/</id>
+    <content src="http://localhost:4000/deploying-gramps-on-github-pages-using-github-action-workflow/" />
+    <author>
+      <name>{"name"=>"Alex Laverty", "link"=>"https://alexlaverty.github.io"}</name>
+    </author>
+
+  
+    
+    <category term="genealogy" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+
+  Introduction
+  What are the benefits of doing this?
+  Creating a Github Repository
+  Enable Github Pages
+  Git Clone Your Gramps Repo
+  Export Your Gramps Family Tree as a GEDCOM File
+  Create A Github Actions Workflow Config
+  Bug in Gramps CLI
+  Push Files Up Into Github Repo
+  Verify GitHub Actions WorkFlow Build
+  Browse Your Gramps Narrated Website
+  Pushing Updates To Your Gramps Web...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Telling Career</title>
+    <link href="http://localhost:4000/Telling-Career/" rel="alternate" type="text/html" title="Telling Career" />
+    <published>2007-06-26T00:00:00+11:00</published>
+  
+    <updated>2007-06-26T00:00:00+11:00</updated>
+  
+    <id>http://localhost:4000/Telling-Career/</id>
+    <content src="http://localhost:4000/Telling-Career/" />
+    <author>
+      <name>{"name"=>"Alex Laverty", "link"=>"https://alexlaverty.github.io"}</name>
+    </author>
+
+  
+    
+    <category term="genealogy" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      ‘Which’ bank provided Len Laverty with such a diverse working life?
+
+Commonwealth Bank officer Len Laverty had his job to thank for meeting 60s celebrities like cricketer Alan Davidson, entertainer Don Lane and racing driver Jack Brabham… plus a near encounter with an armed robber.
+
+The celebrities came Len’s way when, as a junior bank employee, he helped staff the travellers’ exchange facility...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Funeral Eucharist Elsie Pearl Laverty</title>
+    <link href="http://localhost:4000/funeral-eucharist-elsie-laverty/" rel="alternate" type="text/html" title="Funeral Eucharist Elsie Pearl Laverty" />
+    <published>2002-04-12T14:33:00+11:00</published>
+  
+    <updated>2002-04-12T14:33:00+11:00</updated>
+  
+    <id>http://localhost:4000/funeral-eucharist-elsie-laverty/</id>
+    <content src="http://localhost:4000/funeral-eucharist-elsie-laverty/" />
+    <author>
+      <name>{"name"=>"Alex Laverty", "link"=>"https://alexlaverty.github.io"}</name>
+    </author>
+
+  
+    
+    <category term="genealogy" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      FUNERAL EUCHARIST IN THANKSGIVING
+
+for the life of
+
+Elsie Pearl Laverty
+
+1924 - 2002
+
+ST. MARY’S CHURCH, GRAFTON
+
+12th APRIL, 2002
+
+GATHERING SONG
+
+“Come As You Are”
+
+LI
+
+Firs
+
+Come as you are, that’s how I want you Come as you are, feel quite at home.
+
+Close to my heart loved and forgiven
+
+Come as you are why stand alone?
+
+No need to fear love sets no limits
+
+Don’t run away shame and dishearte...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
