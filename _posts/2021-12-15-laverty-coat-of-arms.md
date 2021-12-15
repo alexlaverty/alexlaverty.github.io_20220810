@@ -34,10 +34,4 @@ Another interpretation of the red hand cut off at the wrist is associated with t
 
 The final part of the description refers to what is in the base, or bottom half, of the shield. The Laverty shield has a boat with 8 oars. From earliest times, the symbol of a boat represented security, stemming from the biblical story of Noah's Ark. In more modern times, the boat is indicative of venture and travel. The "sable" refers to the black color of the boat, which is associated with night and repentance. The sable color is also attributed to the quality of serenity.
 
-
-This coat of arms has been certified by the Sanson Institute of Heraldry. If you click on the image on the right, you will be able to read the actual certificate.
-
-
-![](/assets/img/laverty/lavertyCertificateOriginal.gif)
-
 source: http://chatterchopz.com/History/coatofarms.htm

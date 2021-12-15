@@ -14,7 +14,7 @@
     <meta name="minute-prompt" content="{{ site.data.locales[lang].post.timeago.minute }}">
     <meta name="justnow-prompt" content="{{ site.data.locales[lang].post.timeago.just_now }}">
     {% if page.image.src %}
-    <meta name="thumbnail" content="{{  page.image.src | absolute_url   }}" />
+    <meta name="og:image" content="{{  page.image.src | absolute_url   }}" />
     {% endif %}
     {% if site.google_analytics.pv.proxy_endpoint %}
       <meta name="pv-proxy-endpoint" content="{{ site.google_analytics.pv.proxy_endpoint }}">
