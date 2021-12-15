@@ -15,6 +15,8 @@ math: true
 mermaid: true
 ---
 
+![](/assets/img/laverty/reunion-laverty-reunion.jpg)
+
 Is your name Laverty, or perhaps Lafferty or O'Laverty.
 
 We are having a Family reunion at Macksville Showground, on Saturday 30th September and Sunday October 1st.
@@ -30,3 +32,4 @@ The Laverty name is well known on the Nambucca Valley. Our families married into
 Food and drink will be available on both days, so hopefully it will be a great week-end and in years to come, we can start a conversation, with "Remember our week-end at Macksville".
 
 For fourther information contact Dot Clarke (065) 68-1061 or Noreen Fuller (065) 64-7291.
+

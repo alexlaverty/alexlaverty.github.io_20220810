@@ -11,6 +11,8 @@ tags: [
 
 ---
 
+![](/assets/img/laverty/reunion-laverty-reunion-starts-tomorrow.jpg)
+
 One of the district's best known families, the Lavertys, are staging a family reunion at the Macksville Showground this
 
 weekend. Organisers of the event are expecting about 1,000 Laverty descendants to attend the two day gathering, travellingfrom all states of Australia and from New Zealand

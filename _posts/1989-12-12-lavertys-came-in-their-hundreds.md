@@ -11,6 +11,8 @@ tags: [
 
 ---
 
+![](/assets/img/laverty/reunion-lavertys-came-in-their-hundreds.jpg)
+
 Hundreds of descendants of the Laverty
 
 family flocked back to the Nambucca Valley recently for a family reunion. It was one of the many events held in the Nambucca Valley during the October long

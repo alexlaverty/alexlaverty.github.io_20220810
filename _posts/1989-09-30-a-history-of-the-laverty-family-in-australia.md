@@ -24,7 +24,7 @@ tags: [reunion]
 - [VINCENT JOHN LAVERTY. 1901-1974 By NOEL LAVERTY](#vincent-john-laverty-1901-1974-by-noel-laverty)
 - ["BUB" LAVERTY By Bernice (Laverty) Adams](#bub-laverty-by-bernice-laverty-adams)
 - [EARLY HISTORY OF THE LAVERTY FAMILY By Jane E. Laverty. 1988.](#early-history-of-the-laverty-family-by-jane-e-laverty-1988)
-- [Laverty"s of Limerick By Jane Laverty](#lavertys-of-limerick-by-jane-laverty)
+- [Laverty's of Limerick By Jane Laverty](#lavertys-of-limerick-by-jane-laverty)
   - [A SPECIAL PLACE.](#a-special-place)
   - [ODE TO CHARLES](#ode-to-charles)
   
@@ -761,7 +761,7 @@ Lance was later to own, in partnership with Charlie Hall, one of the first motor
 
 ---
 
-## Laverty"s of Limerick By Jane Laverty
+## Laverty's of Limerick By Jane Laverty
 
 The information for the Laverty"s of Limerick has been primarily collected and supplied by Jane Laverty who is at present studying Biomedical Science at the University of Technology in Sydney. The two poems here printed are written by her.
 

@@ -10,6 +10,8 @@ tags: [
   ]
 ---
 
+![](/assets/img/laverty/big-is-beautiful.jpg)
+
 Daily Examiner
 
 THE DAILY EXAMINER, Monday, October 4, 1993.
