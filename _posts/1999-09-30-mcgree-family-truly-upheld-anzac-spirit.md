@@ -9,9 +9,10 @@ tags: [
   Patrick McGree,
   John McGree
   ]
+image:
+  src: /assets/img/laverty/mcgree-family-truly-upheld-anzac-spirit.jpg
+  alt: McGree Family Truly Upheld ANZAC Spirit
 ---
-
-![](/assets/img/laverty/mcgree-family-truly-upheld-anzac-spirit.jpg)
 
 McGree family truly upheld ANZAC Spirit
 

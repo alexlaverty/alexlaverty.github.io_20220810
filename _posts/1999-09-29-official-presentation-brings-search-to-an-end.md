@@ -9,11 +9,12 @@ tags: [
   Patrick McGree,
   John McGree
   ]
+image:
+  src: /assets/img/laverty/official-presentation-brings-search-to-an-end.jpg
+  alt: Official Presentation Brings Search to an End
 ---
 
-![](/assets/img/laverty/official-presentation-brings-search-to-an-end.jpg)
-
-Regular readers of the Mid-Coast Observer may remember a number of articles on two photographs taken dur ing World War One of brothers Patrick and John McGree.
+Regular readers of the Mid-Coast Observer may remember a number of articles on two photographs taken during World War One of brothers Patrick and John McGree.
 
 The search for identity of the brothers led two men - Michael Long from England and Melbourne's David Sandground - on a world-wide search, eventually ending in the small farming village of Taylors Arm.
 

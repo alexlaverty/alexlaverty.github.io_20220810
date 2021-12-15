@@ -9,9 +9,10 @@ tags: [
   Patrick McGree,
   John McGree
   ]
+image:
+  src: /assets/img/laverty/war-time-mystery-leads-two-men-to-taylors-arm.jpg
+  alt: War Time Mystery Leads Two Men To Taylors Arm
 ---
-
-![](/assets/img/laverty/war-time-mystery-leads-two-men-to-taylors-arm.jpg)
 
 War-time mystery leads two men to Taylors Arm
 

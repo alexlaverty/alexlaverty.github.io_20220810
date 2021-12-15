@@ -9,10 +9,10 @@ tags: [
   Patrick McGree,
   John McGree
   ]
+image:
+  src: /assets/img/laverty/planning-begins-for-mcgree-photo-presentation.jpg
+  alt: Planning Begins for McGree Photo Presentation
 ---
-
-![](/assets/img/laverty/planning-begins-for-mcgree-photo-presentation.jpg)
-
 
 Planning begins for McGree photo presentation
 
