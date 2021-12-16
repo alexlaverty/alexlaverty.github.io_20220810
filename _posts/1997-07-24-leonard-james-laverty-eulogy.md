@@ -6,9 +6,12 @@ author:
 date: 1997-07-24
 categories: [Laverty Family History]
 tags: [Leonard Laverty]
-math: true
-mermaid: true
+image:
+  src: /assets/img/laverty/leonard-laverty-eulogy01.jpg
+  alt: Leonard James Laverty - Eulogy
 ---
+
+![](/assets/img/laverty/leonard-laverty-eulogy02.jpg)
 
 ## EULOGY
 

@@ -8,6 +8,9 @@ categories: [Laverty Family History]
 tags: [
   Len Laverty
   ]
+image:
+  src: /assets/img/laverty/len-laverty-telling-career.jpg
+  alt: Len Laverty - Telling Career 
 ---
 
 ## 'Which' bank provided Len Laverty with such a diverse working life?
