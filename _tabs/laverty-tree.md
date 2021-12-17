@@ -1,8 +1,8 @@
 ---
 title: Laverty Family Tree
-icon: fas fa-info-circle
+icon: fas fa-archive
 order: 5
 ---
 
 
-[Click to browse the Laverty Family Gramps website](/laverty-family-tree)
+[Click to browse the Laverty Family Gramps website](/laverty-family-tree/individuals.html)
