@@ -59,6 +59,7 @@ test() {
   bundle exec htmlproofer \
     --disable-external \
     --check-html \
+    --file-ignore "/laverty-family-tree/"
     --allow_hash_href \
     "$SITE_DIR"
 }
