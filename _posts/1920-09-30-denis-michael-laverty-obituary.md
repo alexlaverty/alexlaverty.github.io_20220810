@@ -1,5 +1,5 @@
 ---
-title: Death of Mr Denis Laverty
+title: Denis Michael Laverty Obituary
 author:
   name: Alex Laverty
   link: https://alexlaverty.github.io
@@ -21,3 +21,6 @@ Residents of Taylor's Arm. in fact the whole of the Nambuca district, received a
 The funeral took place at Bowraville, in the presence of a large concourse of people. At the graveside. Rev. Father Cobolan (who came especially from Bellisges) in the course of an address made reference to the many good qualities possessed by the deceased. He married Miss Goldspring of Taylor's Arm, and their union was blessed by seven sons and four daughters, all of whom are left to mourn their loss. He also leaves three brothers Messrs. Michael, John and Samuel Laverty, of Taylor's Arm and three sisters. Mrs Lynch, Mrs T. Fleming and Miss S. Laverty. Mins Laverty resides with her good old mother who has reached the great age of 89. Mass was celebrated at Taylor's Arm by the Rev. Father Cobolan for the repose of his soul.
 
 RIP
+
+![](/assets/img/laverty/denis-michael-laverty-obituary.png)
+
