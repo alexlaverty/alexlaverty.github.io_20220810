@@ -4,7 +4,7 @@ author:
   name: Alex Laverty
   link: https://alexlaverty.github.io
 date: 1920-09-30 11:33:00 +0800
-categories: [Laverty Family History]
+categories: []
 tags: [Denis Laverty]
 math: true
 mermaid: true
@@ -93,18 +93,18 @@ East Kempsey Anglican Cemetery
       Alexander farmed at Pola Creek where by conditional purchases and purchases from others he expanded the mid-1850s purchased 93 acres to about 350 acres plus 151 acres upriver in the parish of Kalateenee, and developed it into one of the most prosperous dairy farms on the river. Two sons went to the First World War of whom the youngest was wounded in France in 1916 and had a leg amputated above the knee, and the other was killed in action in March 1918 near the small French village of Villers Bretennoux. 17.
 
 Children of Alexander Dornan and Mary Mackay were:
-     8.    i.     Charles Lewis Dornan
-     9.    ii.    Donald McKay Dornan
-    10.   iii    Catherine Ann Dornan
-    11.   iv.   Edward Adin Dornan
-    12.   v.    Alexander M Dornan
-    13.   vi.   Barbara Effy Dornan
-    14.   vii.  Victor Charles Dornan
-    15.  viii.   Mary L Dornan
-    16.    ix.   Stanley R Dornan
-    17.    x.    Leonard Hastings Dornan
-    18.   xi.    John Lyle Dornan
-2.   Ann Dornan, b. 1 Dec 1842, bapt. 7 Jul 1844 18 as recorded in the baptisms register of the 1840 established St Andrews Presbyterian parish at Port Macquarie ; d. 14 Dec 1921 19 (#1921-17192) reg. Kempsey, NSW, buried 16 Dec. Frederickton Cemetery ; m. 5 Sep 1860 (#1860-1876) at Frederickton, Macleay River, NSW  Edward Ball, b. 1836 Cornwall, England; d. 19 Dec 1877 (#1877-6291), age 41, Macleay River (accidently).
+     1.    i.     Charles Lewis Dornan
+     2.    ii.    Donald McKay Dornan
+    1.    iii    Catherine Ann Dornan
+    2.    iv.   Edward Adin Dornan
+    3.    v.    Alexander M Dornan
+    4.    vi.   Barbara Effy Dornan
+    5.    vii.  Victor Charles Dornan
+    6.   viii.   Mary L Dornan
+    7.     ix.   Stanley R Dornan
+    8.     x.    Leonard Hastings Dornan
+    9.    xi.    John Lyle Dornan
+1.   Ann Dornan, b. 1 Dec 1842, bapt. 7 Jul 1844 18 as recorded in the baptisms register of the 1840 established St Andrews Presbyterian parish at Port Macquarie ; d. 14 Dec 1921 19 (#1921-17192) reg. Kempsey, NSW, buried 16 Dec. Frederickton Cemetery ; m. 5 Sep 1860 (#1860-1876) at Frederickton, Macleay River, NSW  Edward Ball, b. 1836 Cornwall, England; d. 19 Dec 1877 (#1877-6291), age 41, Macleay River (accidently).
 
 
 Ann Ball née Dornan 19
@@ -115,38 +115,38 @@ Ann Ball née Dornan 19
       Ann's Sydney newspaper death notice stated she left four sons and two daughters, thirty-four grandchildren, and twelve great-grand-children 19. However from the death records it appears four daughters survived her and, as it was said there four surviving sons, in addition to the three with birth registrations listed below the fourth would seemingly have been a John for whom no birth registration is indexed but whose death was registered in 1932 (#1932-5902) at Ashfield in Sydney with his parent names given as Edward and Ann Ball. If he was their son he should be listed in Ann's 1921 death registration record and perhaps also named as a beneficary in her probated will.
 
 Children of Ann Dornan and Edward Ball were:
-     19.    i.    Agnes Jane Ball
-     20.    ii.   Catherine Ball
-     21.    iii.  Charles Edward Ball
-     22.    iv.  Annie Maria Ball
-     23.    v.   Eliza Matilda Ball
-     24.    vi.  Amy Constance Ball
-     25.   vii.  Albert Ball
-     26.  viii.  Henry Parnell Ball
-3.    Jane Dornan, b. 1844 18, bapt. 7 Jul 1844 18 as recorded in the baptisms register of the 1840 established St Andrews Presbyterian parish at Port Macquarie ; d. Jan. 1878 (#1878-6828) , reg. Macleay River NSW ; m. 1872 (#1872-1254) reg. Paddington, NSW, John Sylvester Connors, b. 1851 Tasmania, Australia ; d. 1902 (#1902-1764) at Gladstone, NSW, bur. Frederickton Cemetery, son of Daniel (1825-) and Mary Ann O'Brien (1827-).
+     1.     i.    Agnes Jane Ball
+     2.     ii.   Catherine Ball
+     3.     iii.  Charles Edward Ball
+     4.     iv.  Annie Maria Ball
+     5.     v.   Eliza Matilda Ball
+     6.     vi.  Amy Constance Ball
+     7.    vii.  Albert Ball
+     8.   viii.  Henry Parnell Ball
+1.    Jane Dornan, b. 1844 18, bapt. 7 Jul 1844 18 as recorded in the baptisms register of the 1840 established St Andrews Presbyterian parish at Port Macquarie ; d. Jan. 1878 (#1878-6828) , reg. Macleay River NSW ; m. 1872 (#1872-1254) reg. Paddington, NSW, John Sylvester Connors, b. 1851 Tasmania, Australia ; d. 1902 (#1902-1764) at Gladstone, NSW, bur. Frederickton Cemetery, son of Daniel (1825-) and Mary Ann O'Brien (1827-).
      Jane died of typhoid fever in 1878 at "Greenfields" - a property with a river frontage located three kilometers north of Frederickton that was later owned by the two sons of her step-brother A. M. Raymond. Later that same year her husband John Connors remarried Catherine Agnes Garner (1856-1939) and between 1879 and 1902 had twelve more children. He died by his own hand (asphyxia by drowning) in 1902 at Gladstone and his death registration record had his occupation as saddler 23.
 
 Children of Jane Dornan and John Sylvester Connors were:
-     27.  i.     Julia Connors
-     28.  ii.    Elizabeth Jane Connors
-     29.  iii.   Charles Sylvester Connors
+     1.   i.     Julia Connors
+     2.   ii.    Elizabeth Jane Connors
+     3.   iii.   Charles Sylvester Connors
      xx.  iv.   Ellen C Connors
-     30.  v.    Isabella Connors
-4.    Mary Lavender Dornan, b. 12 May 1846 18, bapt. 23 Sep 1849 likely at Macleay River - as recorded in baptism register of St Thomas Church C of E, Port Macquarie; d. 26 Sep 1919 (#1919-24158) reg. Macksville, NSW ; m. July 1866 (#1866-2278), James Bradley, b. 1841 ; d. 1918, buried 20 May 1918 Rookwood Cemetery, son of William Bradley (1815-1892) and Elizabeth Mackay (-1890) who married at Dungog in NSW in 1840.
+     1.   v.    Isabella Connors
+1.    Mary Lavender Dornan, b. 12 May 1846 18, bapt. 23 Sep 1849 likely at Macleay River - as recorded in baptism register of St Thomas Church C of E, Port Macquarie; d. 26 Sep 1919 (#1919-24158) reg. Macksville, NSW ; m. July 1866 (#1866-2278), James Bradley, b. 1841 ; d. 1918, buried 20 May 1918 Rookwood Cemetery, son of William Bradley (1815-1892) and Elizabeth Mackay (-1890) who married at Dungog in NSW in 1840.
      The funeral notice in the Sydney Morning Herald of 20 May 1918 for her husband James Bradley named the six married surviving children and their spouses as - Mr & Mrs May, Mr & Mrs Eichman, Mr & Mrs Mackay, Mr & Mrs Duchie, Mr & Mrs J Bradley and Mr & Mrs W Bradley.
 
 Nambucca Heads General Cemetery
 
 Children of Mary Lavender Dornan and James Bradley were:
-     31.   i.     Catherine Bradley            
-     32.   ii.    Elizabeth Ann Bradley,
-     33.   iii.   Islet Mary Bradley
-     34.   iv.   Jessie Bradley
-     35.   v.   William Herbert Bradley
-     36.   vi    Charles Alexander Bradley
-     37.   vii.   James Albert Bradley
+     1.    i.     Catherine Bradley            
+     2.    ii.    Elizabeth Ann Bradley,
+     3.    iii.   Islet Mary Bradley
+     4.    iv.   Jessie Bradley
+     5.    v.   William Herbert Bradley
+     6.    vi    Charles Alexander Bradley
+     7.    vii.   James Albert Bradley
 
-5.    Catherine Dornan, b. 17 April 1848 18, bapt. 23 Sep 1849 likely at Macleay River - as recorded in the baptism register of St Thomas Church C of E, Port Macquarie ; d. 25 Apr 1938 (#1938-9145) reg. Macksville, NSW ; m. August 1873 (#1873-283) reg.  Macleay River, William Charles Bradley,  b. 13 June 1848 at Paterson, NSW; d. 22 Dec 1928 Macksville, NSW, son of William Bradley (1815-1892) and Elizabeth Mackay (-1890) who married at Dungog in NSW in 1840.
+1.    Catherine Dornan, b. 17 April 1848 18, bapt. 23 Sep 1849 likely at Macleay River - as recorded in the baptism register of St Thomas Church C of E, Port Macquarie ; d. 25 Apr 1938 (#1938-9145) reg. Macksville, NSW ; m. August 1873 (#1873-283) reg.  Macleay River, William Charles Bradley,  b. 13 June 1848 at Paterson, NSW; d. 22 Dec 1928 Macksville, NSW, son of William Bradley (1815-1892) and Elizabeth Mackay (-1890) who married at Dungog in NSW in 1840.
 
 
 Macksville General Cemetery
@@ -154,25 +154,25 @@ Macksville General Cemetery
        The obituary of William Charles appeared in the Nambucca and Bellingen News of 23 Dec 1927. It gave his age as 79, that he was born at Dungog the son of the late William Bradley, and had come to the district when about 19 years of age. It named three daughters and two sons as surviving him - being Mrs G Rowe (Sydney), Mr Charles Bradley (Queenskand), Mrs A McCarthy (Gloucester), Mr Harold Bradley (Inverell), and Mrs R Edwards (Macleay) and said two of his brothers and two sisters also survived him being - Mr Donald Bradley (Sydney), Mr John Bradley (Bowraville), Mrs E. Mitchell and Mrs J Mitchell (Sydney). Of the latter two only the birth of Elizabeth who married James Laing Mitchell in 1880 is NSW birth indexed. The other would be the Jane Bradley who married John Mitchell in 1872 in Sydney. When Catherine Dornan's step-father Augustus Raymond remarried Margaret Chambers nee Mackay at Pola Creek in Dec 1867 the witnesses were William Bradley & Jane Bradley.
 
 Children of Catherine Dornan and William Charles Bradley were:
-     38.   i.     Abertha Adeline Bradley
-     39.   ii.     Charles D. Bradley
-     40.   iii .   Betsy Bradley
-     41.   iv.    William E. Bradley
-     42.   v.     Fleda May Bradley
-     43.   vi.    Harold Frederick Bradley                 
-     44.   vii.   Betsy Bradley
-     45.   vii.   Adrienne Olive A Bradley
-6.    Eliza Dornan, b. 10 July 1850 18, bapt. 10 July 1852 at Macleay River - as recorded in the baptism register of the C of E parish of St Thomas at Port Macquarie; d. 9 Oct 1920 (#1920-19594) reg. Macksville, NSW; m. 1876 (#1876-3113) reg. Macleay River, Edward Joseph Crispin, b. ca. 1848 ; d. 17 May 1921.
+     1.    i.     Abertha Adeline Bradley
+     2.    ii.     Charles D. Bradley
+     3.    iii .   Betsy Bradley
+     4.    iv.    William E. Bradley
+     5.    v.     Fleda May Bradley
+     6.    vi.    Harold Frederick Bradley                 
+     7.    vii.   Betsy Bradley
+     8.    vii.   Adrienne Olive A Bradley
+1.    Eliza Dornan, b. 10 July 1850 18, bapt. 10 July 1852 at Macleay River - as recorded in the baptism register of the C of E parish of St Thomas at Port Macquarie; d. 9 Oct 1920 (#1920-19594) reg. Macksville, NSW; m. 1876 (#1876-3113) reg. Macleay River, Edward Joseph Crispin, b. ca. 1848 ; d. 17 May 1921.
 
 
 Macksville General Cemetery
       In 1970 Allan King wrote - "The Crispins owned the adjoining farm on the Kempsey side of the Dornan property. Some time later it was sold to the O'Dell family 10. At some time they must have moved to the Nambucca River district as the name of E. J. Crispin as the selector appears on two adjoining portions #70 and 75 at Utungan in the parish of Bowra on the northern side of Taylors Arm Creek with a nearby portion having as its selector son Leslie E.
 
 Children of Eliza Dornan and Edward Joseph Crispin were:
-     46.  i.     Charles W Crispin
-     47.  ii.    Ethel J Crispin
-     48.  iii.   Leslie Edward Crispin
-7.    Charles Dornan, born 9 Dec 1852 18, bapt. 6 Feb 1853 18 at Macleay River - recorded as "John" in baptism register of the C of E parish of St Thomas at Port Macquarie ; d. 21 June 1930 (#1930-6860) reg. Kempsey ; m. 1880 reg, Macleay River (#1880-3755 indexed under surame Doonan), Margaret Rigney, b. 1862 (#1862-8901) reg. Manning River ; d. 17 Feb 1945 (#1945-2789), daughter of Patrick and Catherine Jane Rigney.
+     1.   i.     Charles W Crispin
+     2.   ii.    Ethel J Crispin
+     3.   iii.   Leslie Edward Crispin
+1.    Charles Dornan, born 9 Dec 1852 18, bapt. 6 Feb 1853 18 at Macleay River - recorded as "John" in baptism register of the C of E parish of St Thomas at Port Macquarie ; d. 21 June 1930 (#1930-6860) reg. Kempsey ; m. 1880 reg, Macleay River (#1880-3755 indexed under surame Doonan), Margaret Rigney, b. 1862 (#1862-8901) reg. Manning River ; d. 17 Feb 1945 (#1945-2789), daughter of Patrick and Catherine Jane Rigney.
 
 
 East Kempsey Anglican Cemetery
@@ -180,72 +180,72 @@ East Kempsey Anglican Cemetery
       As regards the Pola Creek farm, expanded from Catherine's original 1854 purchase by the purchase of additional portions from the crown and other landowners, in 1970 Allan King wrote - "In about 1875 the property was subdivided for the first time with Charles, the younger brother of Alexander Dornan, taking over the east portion of the land. Charles Dornan built a new homestead on his part of the subdivision and lived there with his family for the rest of his life. ... Ern Dornan, a son of Charles Dornan 2nd and grandson of the first Charles Dornan is still living on the property with his son and daughter-in-law and their children. ... Three of Charles Dornan's sons, Gus, Les and Bert, went to the First World War. Les was killed in action and Bert died on the ship returning to Australia." 10.
 
 Children of Charles Dornan and Margaret Rigney were:
-    49.   i.      Charles Augustus Dornan
-    50.   ii.     Catherine Jane Dornan
-    51.   iii.    Ivy May Dornan
-    52.   iv.    William Patrick Dornan
-    53.   v.     Ernest A Dornan
-    54.   vi.    Jessie M Dornan         
-    55.  vii.    Elizabeth P Dornan
-    56.  viii.   Ethel T Dornan
-    57.   ix.    Leslie R Dornan
+    1.    i.      Charles Augustus Dornan
+    2.    ii.     Catherine Jane Dornan
+    3.    iii.    Ivy May Dornan
+    4.    iv.    William Patrick Dornan
+    5.    v.     Ernest A Dornan
+    6.    vi.    Jessie M Dornan         
+    7.   vii.    Elizabeth P Dornan
+    8.   viii.   Ethel T Dornan
+    9.    ix.    Leslie R Dornan
     58    x.     Bertie L Dornan
-    59.   xi.    Elsie I Dornan
-    60.   xii.   Ethel M Dornan
+    1.    xi.    Elsie I Dornan
+    2.    xii.   Ethel M Dornan
 
 THIRD GENERATION
 
-8.    Charles Lewis Dornan, b. 1873 (#1873-12629) reg. Macleay River, NSW ; d. 1874 (#1874-7444) reg. Port Macquarie, NSW.
+1.    Charles Lewis Dornan, b. 1873 (#1873-12629) reg. Macleay River, NSW ; d. 1874 (#1874-7444) reg. Port Macquarie, NSW.
 
-9.    Donald McKay Dornan, b. 1874 (#1874-13025) reg. Macleay River, NSW ; d. 18 Nov 1957 Kempsey, NSW ; m. 1901 (#1901-9401 reg. Kempsey; Emily Anne Hodgson, b. ca. 1875; d.  20 Nov 1969.
+2.    Donald McKay Dornan, b. 1874 (#1874-13025) reg. Macleay River, NSW ; d. 18 Nov 1957 Kempsey, NSW ; m. 1901 (#1901-9401 reg. Kempsey; Emily Anne Hodgson, b. ca. 1875; d.  20 Nov 1969.
 
 
 East Kempsey Cemetery
      In 1970 Allan King wrote -"in 1921, Donald Dornan with his wife and four children, George, Alex, Winnie and Ruby returned to Pola Creek to take over the old home property. He had been away for nearly twenty years and had owned and worked properties, first at Alstonville on the Richmond River, and later Gayndah, a rich farming district in Queensland" 10.
 
 Children of Donald McKay Dornan and Emily Anne Hodgson were:
-     61.   i.      George H Dornan
-     62.   ii.     Alexander R Dornan
-     63.   iii.    Winnie Dornan
-     64.   iv.    Ruby C Dornan
+     1.    i.      George H Dornan
+     2.    ii.     Alexander R Dornan
+     3.    iii.    Winnie Dornan
+     4.    iv.    Ruby C Dornan
 
-10.  Catherine Ann Dornan, b. 1875 (#1875-13580) reg. Macleay River, NSW ;  m. 1899 (#1899-8314) reg Kempsey, George William King.
+1.   Catherine Ann Dornan, b. 1875 (#1875-13580) reg. Macleay River, NSW ;  m. 1899 (#1899-8314) reg Kempsey, George William King.
 Children of Catherine Ann Dornan and George William King were:
-     65.   i.      William B. P. King
-     66.   ii.     Raymond Dornan King
-     67.   iii.    Stanley A King
-     68.   iv.    Mabel J. G. King
-     69.   v.     Allan Wallace King
-     70.   vi.    Clifford Mackay King    
- 11.  Edward Adin Dornan, b. 1877 (#1877-14306) reg. Macleay River, NSW (birth indexed under Doran) ; d. 19 Dec 1956 10 (#1956-33374) reg. Kempsey, NSW  ; m. 1917 reg. Kempsey (#1917-7995), Sylvia Winifred Secomb, b. ca. 1883 (#1883-21857)  reg West Kempsey; d.  26 Oct 1942 10Kempsey, dau. of Thomas & Jane Secomb.
+     1.    i.      William B. P. King
+     2.    ii.     Raymond Dornan King
+     3.    iii.    Stanley A King
+     4.    iv.    Mabel J. G. King
+     5.    v.     Allan Wallace King
+     6.    vi.    Clifford Mackay King    
+ 1.   Edward Adin Dornan, b. 1877 (#1877-14306) reg. Macleay River, NSW (birth indexed under Doran) ; d. 19 Dec 1956 10 (#1956-33374) reg. Kempsey, NSW  ; m. 1917 reg. Kempsey (#1917-7995), Sylvia Winifred Secomb, b. ca. 1883 (#1883-21857)  reg West Kempsey; d.  26 Oct 1942 10Kempsey, dau. of Thomas & Jane Secomb.
 
 
 East Kempsey Cemetery
        Not long after Alexander's death his widow and her two daughters Barbara Effie and Mary went to live in Sydney and the property was subdivided, with Adin Dornan, the second eldest son, taking the west side portion of the Pola Creek property and Donald , the eldest son, the homestead block. Not having any son to carry it on after Adin's death his portion of the property was sold 10.
 
 Children of Edward Adin Dornan and Sylvia Winifred Secomb were:
-     71.   i      Jean Heather Dornan
-     72.   ii.    Gwendoline Mary Dornan
+     1.    i      Jean Heather Dornan
+     2.    ii.    Gwendoline Mary Dornan
 
-12.   Alexander M Dornan, b. 1879 (#1879-16240) reg. Macleay River, NSW (birth indexed under Doman) ; d. ca. 1858 Queensland ; m. 1911 (#1911-6901) reg. Rockdale, NSW, Dora J. Sutton.  He was a farmer and grazier at Wondai in Queensland.
+1.    Alexander M Dornan, b. 1879 (#1879-16240) reg. Macleay River, NSW (birth indexed under Doman) ; d. ca. 1858 Queensland ; m. 1911 (#1911-6901) reg. Rockdale, NSW, Dora J. Sutton.  He was a farmer and grazier at Wondai in Queensland.
 
 Children of Alexander M Dornan and Dora J Sutton were:
-     73.        Robert Sutton Dornan
+     1.         Robert Sutton Dornan
 
-13.   Barbara Effy Dornan, b. 1882 (#1882-20280) reg. West Kempsey, NSW (birth indexed under Doonan); d. 28 Oct 1968 (#1968-41679) at Roslyn Hospital, late of Hurstville, reg. Sutherland, NSW.
+1.    Barbara Effy Dornan, b. 1882 (#1882-20280) reg. West Kempsey, NSW (birth indexed under Doonan); d. 28 Oct 1968 (#1968-41679) at Roslyn Hospital, late of Hurstville, reg. Sutherland, NSW.
 
-14.  Victor Charles Dornan, b. 1884 (#1884-23622) reg. Kempsey, NSW; d. 1884 (#1884-10466) reg. Kempsey, NSW.
+2.   Victor Charles Dornan, b. 1884 (#1884-23622) reg. Kempsey, NSW; d. 1884 (#1884-10466) reg. Kempsey, NSW.
 
-15.  Mary Lavinia Dornan, b. 1885 (#1885-24438) reg. Kempsey, NSW; d.  1972 (#44492) reg. Sutherland, NSW.
+3.   Mary Lavinia Dornan, b. 1885 (#1885-24438) reg. Kempsey, NSW; d.  1972 (#44492) reg. Sutherland, NSW.
 
-16.  Stanley Robert Dornan, b. 1888 (#1888-26676) reg. Kempsey, NSW; d. 1972 (#1972-43452) reg. Kogarah, NSW ; m. 1916 (#1916-9530) reg. Sydney, Mary Learmouth.
+4.   Stanley Robert Dornan, b. 1888 (#1888-26676) reg. Kempsey, NSW; d. 1972 (#1972-43452) reg. Kogarah, NSW ; m. 1916 (#1916-9530) reg. Sydney, Mary Learmouth.
 
-17.   Leonard Hastings Dornan, b. 1891 (#1891-17812) reg. Kempsey, NSW; d. 30 Mar 1918 - killed in action in France.
+5.    Leonard Hastings Dornan, b. 1891 (#1891-17812) reg. Kempsey, NSW; d. 30 Mar 1918 - killed in action in France.
 
 
 East Kempsey Cemetery
       In 1970 Allan King wrote - "Two sons of Alexander and Mary Dornan went to the First World War. ... Leonard Hastings, the second youngest son, was killed in action on the 20 March 1918. He was shot and killed instantly by a sniper's bullet as he was crossing freshly ploughed ground with his platoon late in the afternoon, near a small French village of Villers Bretennoux. Ten years later, his two brothers, Donald and Adin visited the A.I.F. cemetery on the outskirts of the small village of Villers Bretennoux and saw the grave of their younger brother" 10.
-18.   John Lyle Dornan, b. 1894 (#1894-17329) reg. Kempsey, NSW; d. 4 Mar 1970 (#1970-12495), of South Cronulla,  reg. Newtown.
+1.    John Lyle Dornan, b. 1894 (#1894-17329) reg. Kempsey, NSW; d. 4 Mar 1970 (#1970-12495), of South Cronulla,  reg. Newtown.
       In 1970 Allan King wrote -" Two sons of Alexander and Mary Dornan went to the First World War. John Lyle, the youngest son, was wounded in France in 1916 and had his right leg amputated above the knee. Returning from overseas in 1917 he eventually became a dental surgeon and had one son Roger " 10.
 19.    Agnes Jane Ball, b. 1861 (#1861-8754) reg. Macleay River ; d. 1929 (#1929-18181) reg. Murrwillimbah, NSW ; m. 1882 (#1882-5168), Frederick William Salmon.
 

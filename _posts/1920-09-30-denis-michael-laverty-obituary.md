@@ -6,8 +6,6 @@ author:
 date: 1920-09-30 11:33:00 +0800
 categories: [Laverty Family History]
 tags: [Denis Laverty]
-math: true
-mermaid: true
 ---
 
 Catholic Press (Sydney, NSW: 1895-1942),

@@ -4,8 +4,8 @@ author:
   name: Alex Laverty
   link: https://alexlaverty.github.io
 date: 1896-01-30 11:33:00 +0800
-categories: [Laverty Family History]
-tags: [Michael Laverty]
+categories: []
+tags: []
 ---
 
 Michael Laverty had been born in Ballynahinch in Northern Ireland, County Down is near the Mourne Mountains, made famous by the song "The Mountains of Mourne"
