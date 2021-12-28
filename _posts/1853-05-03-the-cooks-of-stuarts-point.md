@@ -11,6 +11,8 @@ image:
   alt: The Cooks of Stuarts Point
 ---
 
+![](/assets/img/laverty/the-cooks-of-stuarts-point-02.jpg)
+
 THE COOKS of STUART'S POINT
 
 This history begins in 1853 on May 3rd when Peter Koch (Cook) arrived in Australia on the ship "Droden" from Germany with his wife Anna Catherine (Schroder). He was 25 years old and he and Anna brought with them a baby son Franz (Frank) who was born on 20 Th September 1852 in Wallstadt, Germany. Both of Peter's parents, George and Elizabeth were deceased as was Anna's father Jaco but her mother, Catharina was still alive
@@ -23,21 +25,5 @@ In 1883 the Kirkwood brothers opened a sawmill at Stuart's Point and a village s
 
 This gives a little insight to conditions at Stuart's Point in the 19th century. Although another sawmill opened in 1886, the work was intermittent and the families were poor, Peter is known to have been a farmer, lay Methodist Minister and a Vine Dresser. It is not known if he worked at the mill He was best known as caretaker of the North Coast Co's shed and wharf at Stuart's Point He was naturalized on 27/Aug/1878 Anna was a midwife at Stuart's Point
 
-Peter died in 1909 and his death is recorded in an article from a local newspaper at the time which states he was a very old colo nist It continues "Peter Cook who died at his residence at Stuart's Point on Friday night last week. The deceased gentleman was well-known not only in the Maclery District, but also the Nambucca and Bellinger. He succumbed to heart failure following kidney disease and his death was rather sadden No one in the vicinity of Stuart's Point was more highly respected than "Grandfather Cook" as he was affectionately termed by both
-
-young and old A Native of Germany the late Mr. Cook was 84 years of age, but he was in all respects except in regard to place
-
-of birth an A
-
-Australian, as he had resided in NSW for nearly no
-
-wars and was intensals proud of his adopted land Deceased was
-
-Anna And Peter Cook 1985
-
-1900 henry Peck and pupils. There are certainly some of the
-
-Cool childhon among the pols but they can now be iden
-
-acer
+Peter died in 1909 and his death is recorded in an article from a local newspaper at the time which states he was a very old colo nist It continues "Peter Cook who died at his residence at Stuart's Point on Friday night last week. The deceased gentleman was well-known not only in the Maclery District, but also the Nambucca and Bellinger. He succumbed to heart failure following kidney disease and his death was rather sadden No one in the vicinity of Stuart's Point was more highly respected than "Grandfather Cook" as he was affectionately termed by both young and old. A Native of Germany the late Mr. Cook was 84 years of age, but he was in all respects except in regard to place of birth an Australian, as he had resided in NSW for nearly 60 years and was intintensely proud of his adopted land. Deceased was
 
