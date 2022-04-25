@@ -19,11 +19,13 @@ A while ago I went camping with my family to Narrabeen Caravan Park, while there
 
 The original video I captured didn't look that great, but I was able to fix it up using video editing software called DaVinci Resolve.
 
-This video will demonstrate how I colour corrected the underwater footage with a couple of example clips.
+This video will demonstrate how I colour corrected the underwater footage with a couple of example clips :
+
+<iframe width="700" height="450" src="https://www.youtube.com/embed/1UEKSnMZw28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can view the full Narrabeen Camping video here :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRagVayXNBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="450" src="https://www.youtube.com/embed/ZRagVayXNBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 and you can download the sample underwater video clips if you want to practice doing colour correction from here :
 
