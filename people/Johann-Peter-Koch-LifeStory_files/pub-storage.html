@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- saved from url=(0093)https://www.ancestrycdn.com/aps-pub/live/2021080259134420/pub-storage.html?v=2021080259134420 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+<script type="text/javascript">
+(function(){
+    var maxNum = (typeof pubStorageTestContextMaxNum !== 'undefined') ? pubStorageTestContextMaxNum : 9007199254740992;
+	var prefix = 'pub';
+	var randomizerKey = prefix + 'Rand';
+	var sizeKey = prefix + 'TotalSize';
+	var lowestKey = prefix + 'Lowest';
+	var highestKey = prefix + 'Highest';
+	var usageSuffix = '_u';
+	var randomizerLength = 3;
+	
+	var randomPrefix;
+	
+	var maxStorageSize = (typeof pubStorageTestContextMaxStorageSize !== 'undefined') ? pubStorageTestContextMaxStorageSize : 500000; //~1 MB of cache @ 2 bytes/char
+	var percentToClean = (typeof pubStorageTestContextPercentToClean !== 'undefined') ? pubStorageTestContextPercentToClean : 30;
+	
+    var originRegex = /\.ancestry(library|libraryedition|heritagequest|institution|classroom|)(aws|)(loc|dev|stage|)\.(co.uk|com.au|[a-z]{2,3})$/i;
+	var originRegexPort = /\.ancestry(library|libraryedition|heritagequest|institution|classroom|)(aws|)(loc|dev|stage)\.(co.uk|com.au|[a-z]{2,3}):\d{1,5}$/i;
+    function verifyOrigin(origin){
+		return originRegex.test(origin) || originRegexPort.test(origin);
+    }
+	
+    function processMessage(event){
+        if (!verifyOrigin(event.origin)) throw new Error('Invalid origin: ' + event.origin);
+		var request = JSON.parse(event.data);
+		var response;
+		if (!isSupported) {
+			response = {localStorageWorks:false};
+		} else {
+			initCache();
+			if (request.checkLocalStorage) {
+				response = {localStorageWorks: true};
+			} else if (request.value !== null) {
+				var key = storeItem(request.value);
+				response = {id: request.id, key: key};
+			} else {
+				var item = getItem(request.key);
+				response = {id: request.id, item: item};
+			}
+		}
+		event.source.postMessage(JSON.stringify(response), event.origin);
+    }
+	
+	function getItem(randomizedKey) {
+		var key = getItemKey(randomizedKey);
+		var value = localStorage.getItem(prefix + key);
+		if (value === null) {
+			return null;
+		}
+		//increment usage and total size
+		var usageKey = prefix + key + usageSuffix;
+		var curSize = parseInt(localStorage.getItem(sizeKey));
+		var usage = parseInt(localStorage.getItem(usageKey));
+		var sizeDiff = 0;
+		if (isNaN(usage)) {
+			usage = 0;
+		} else {
+			curSize -= usageKey.length + usage.toString().length;
+		}
+		usage++;
+		
+		//allocate additional space for usage key / value if needed
+		var sizeNeeded = usageKey.length + usage.toString().length;
+		if (curSize + sizeNeeded > maxStorageSize) {
+			localStorage.setItem(sizeKey, curSize.toString());
+			cleanup(sizeNeeded);
+			curSize = parseInt(localStorage.getItem(sizeKey));
+		}
+		try {
+			localStorage.setItem(usageKey, usage.toString());
+		} catch (e) {
+			cleanup(sizeNeeded);
+			localStorage.setItem(usageKey, usage.toString());
+		}
+		
+		curSize += usageKey.length + usage.toString().length;
+		localStorage.setItem(sizeKey, curSize.toString());
+		
+		return value;
+	}
+	
+	function getItemKey(randomizedKey) {
+		if (randomizedKey.indexOf(randomPrefix) !== 0) return null;
+		return randomizedKey.substring(randomPrefix.length);
+	}
+	
+	function storeItem(item) {
+			var key = getNextKey();
+			var itemKey = prefix + key;
+			var lengthNeeded = item.length + itemKey.length;
+			cleanupIfNeededToStoreItem(item, itemKey);
+			try {
+				localStorage.setItem(itemKey, item);
+			} catch (e) {
+				cleanup(lengthNeeded);
+				localStorage.setItem(itemKey, item);
+			}
+			setHighestAndTotalSize(key, lengthNeeded);
+			return randomPrefix + key;
+	}
+	
+	function cleanupIfNeededToStoreItem(item, itemKey) {
+		var curSize = JSON.parse(localStorage.getItem(sizeKey));
+		var usageKey = itemKey + usageSuffix;
+		var usage = localStorage.getItem(usageKey);
+		if (usage !== null) {
+			usage = usage.toString();
+			localStorage.removeItem(usageKey);
+			curSize -= usageKey.length + usage.length
+			localStorage.setItem(sizeKey, curSize);
+		}
+		
+		var sizeNeeded = item.length + itemKey.length;
+		if (curSize + sizeNeeded > maxStorageSize) {
+			cleanup(sizeNeeded);
+		}
+	}
+	
+	function cleanup(sizeNeeded) {
+		var targetSize = maxStorageSize - (maxStorageSize * (percentToClean/100));
+		if (sizeNeeded && maxStorageSize - targetSize < sizeNeeded) {
+			targetSize = maxStorageSize - sizeNeeded;
+		}
+		var curSize = JSON.parse(localStorage.getItem(sizeKey));
+		var lowest = JSON.parse(localStorage.getItem(lowestKey));
+		var highest = JSON.parse(localStorage.getItem(highestKey));
+		
+		//sort all keys into buckets based on usage - remove lowest bucket first
+		// this will fragment the key space - should we defragment as well?
+		
+		var buckets = {'0':[]};
+		var key = null;
+		var usageKey = null;
+		var prefixedKey = null;
+		var numKeys = localStorage.length;
+		
+		for (var i = 0; i < localStorage.length; i++) {
+			prefixedKey = localStorage.key(i);
+			if (prefixedKey.indexOf(prefix) !== 0 || prefixedKey.indexOf(usageSuffix) === (prefixedKey.length - usageSuffix.length)) continue;
+			key = parseInt(prefixedKey.substring(prefix.length));
+			if (isNaN(key) || key < lowest || key > highest) continue;
+			usageKey = prefixedKey + usageSuffix;
+			usage = parseInt(localStorage.getItem(usageKey));
+			if (isNaN(usage)) usage = 0;
+			if (!buckets[usage]) buckets[usage] = [];
+			buckets[usage].push(key);
+		}
+		//sort buckets and contents in ascending order
+		var bucketOrder = [];
+		for (i in buckets) {
+			buckets[i].sort(function (a, b){ return a - b; });
+			bucketOrder.push(parseInt(i));
+		}
+		bucketOrder.sort(function (a, b){ return a - b; });
+		
+		var curBucketOrderIdx = 0;
+		var curBucketIdx = 0;
+		while (curSize > targetSize && curBucketOrderIdx < bucketOrder.length) {
+			var curBucketProp = bucketOrder[curBucketOrderIdx].toString();
+			var curBucket = buckets[curBucketProp];
+			key = curBucket[curBucketIdx];
+			var itemKey = prefix + key;
+			var curItem = localStorage.getItem(itemKey);
+			var itemUsageKey = itemKey + usageSuffix;
+			//delete usage item
+			if (curBucketProp !== '0') {
+				localStorage.removeItem(itemUsageKey);
+				curSize -= (itemUsageKey.length + curBucketProp.length);
+			}
+			// delete item proper	
+			localStorage.removeItem(itemKey);
+			curSize -= (curItem.length + itemKey.length);
+			if (key === lowest && lowest < highest)
+				lowest++;
+			curBucketIdx++;
+			if (curBucketIdx >= curBucket.length) {
+				curBucketOrderIdx++;
+				curBucketIdx = 0;
+			}
+		}
+		
+		localStorage.setItem(sizeKey, curSize);
+		localStorage.setItem(lowestKey, lowest);
+	}
+	
+	function getNextKey() {
+		var highest = JSON.parse(localStorage.getItem(highestKey));
+		if (!highest) {
+			localStorage.setItem(lowestKey, '1');
+			localStorage.setItem(highestKey, '1');
+			highest = 0;
+		}
+		if (highest >= maxNum) {
+			localStorage.removeItem(sizeKey);
+			initCache();
+			localStorage.setItem(lowestKey, '1');
+			highest = 0;
+		}
+		highest++;
+		return highest;
+	}
+	
+	function setHighestAndTotalSize(highest, lengthNeeded) {
+		localStorage.setItem(highestKey, highest.toString());
+		
+		var curSize = JSON.parse(localStorage.getItem(sizeKey));
+		curSize += lengthNeeded;
+		localStorage.setItem(sizeKey, curSize.toString());
+	}
+	
+	function initCache() {
+		if (!localStorage.getItem(sizeKey)) {
+			clearPubEntries();
+			localStorage.setItem(sizeKey, '0');
+			randomPrefix = getRandomString(randomizerLength);
+			localStorage.setItem(randomizerKey, randomPrefix);
+		}
+		if (!randomPrefix) {
+			randomPrefix = localStorage.getItem(randomizerKey);
+		}
+	}
+	
+	function getRandomString(length) {
+		var result = '';
+		var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		for (var i = 0; i < length; ++i) {
+			result += chars.charAt(Math.floor(Math.random() * chars.length));
+		}
+		return result;
+	}
+	
+	function clearPubEntries() {
+		for (var key in localStorage) {
+			if (key.indexOf(prefix) === 0)
+				localStorage.removeItem(key);
+		}
+	}
+	
+	var isSupported = false;
+    try {
+        isSupported = window.postMessage && JSON;
+        var storageTest = 'pageurlbrokertestlocalstorage';
+        localStorage.setItem(storageTest, storageTest);
+        if (localStorage.getItem(storageTest) !== storageTest) {
+            isSupported = false;
+        }
+        localStorage.removeItem(storageTest);
+    } catch (e) {
+        isSupported = false;
+    }
+	if (!isSupported) {
+		if (window.XMLHttpRequest) {
+			var envDomainStr = "";
+			var hostPrefix = "PRD";
+			var devLevel = 'live';
+			var hostName = window.location.hostname;
+			if (hostName.indexOf('dev.') != -1 || hostName.indexOf('loc.') != -1)
+				devLevel = 'dev';
+			else if (hostName.indexOf('stage.') != -1)
+				devLevel = 'stage';
+			switch (devLevel) {
+				case 'dev':
+				case 'loc':
+					envDomainStr = 'dev';
+					hostPrefix = 'ACC';
+				break;
+				case 'stage':
+					envDomainStr = 'stage';
+					hostPrefix = 'PPE';
+				break;
+			}
+			var protocol = window.location.protocol || 'http:';
+			var loggingUrl = protocol + "//fel.ancestry" + envDomainStr + ".com/webapi/events";
+			var errorData = {
+				eventName: "ThirdPartyLocalStorageUnsupported",
+				componentId: "PageUrlBrokerClient",
+				hostName: hostPrefix + "XXXXAPSPUB00",
+				eventProperties: {
+					
+				}
+			};
+			var request = new XMLHttpRequest();
+			request.withCredentials = true;
+			request.open('POST', loggingUrl, true);
+			request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+			request.send(JSON.stringify(errorData));
+		}
+	}
+
+    if (window.addEventListener) {
+        window.addEventListener("message", processMessage, false);
+    } else if (window.attachEvent) {
+        window.attachEvent("onmessage", processMessage);
+    }
+})();
+</script>
+
+</body></html>
