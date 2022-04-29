@@ -1,0 +1,36 @@
+---
+layout: page
+# The Archives of posts.
+---
+
+{% include lang.html %}
+
+<div id="archives" class="pl-xl-2">
+
+  <div class="yarticles">
+{% for post in site.posts %}
+
+  <div class="yarticle">
+    <div class="ythumbnail">
+      <a href="{{ post.url | relative_url }}">
+      <center><img src="{{ post.image.src }}"></center>
+    </div>
+    <div class="wrapper">
+      <div class="ylogo">
+        <img src="{{ site.avatar }}" > 
+      </div>
+
+      <div class="ybody">
+        <div class="title">
+        <a href="{{ post.url | relative_url }}">{{ post.title | truncate: 50 }}</a>
+        </div>
+        <div class="ymeta">
+        <a href="{{ post.url | relative_url }}">{{ post.author.name }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endfor %}
+</div>
+</div>

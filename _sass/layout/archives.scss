@@ -2,6 +2,78 @@
   Style for Archives
 */
 
+
+.yarticles{
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.wrapper{
+  display: flex;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.ythumbnail{
+  img{
+    max-height:200px;
+    max-width:320px;
+    height:auto;
+    width:auto;
+  }
+}
+
+.yarticle{
+  width: 320px;
+  border: 1px solid black;
+}
+
+
+.ylogo img{
+  height: 48px;
+  width: 48px;
+  min-height: 48px;
+  min-width: 48px;
+  border-radius: 50%;
+}
+
+
+.ytitle{
+  padding: 5px;
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 500;
+  // max-height: 4rem;
+  
+}
+
+.ytitle a:hover {
+  text-decoration: none;
+}
+
+.ytitle a {
+  color: black !important;
+  text-decoration: none;
+}
+
+
+
+.ymeta{
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  font-weight: 500;
+  // max-height: 4rem;
+  color: grey;
+}
+
+
 %date-timeline {
   content: "";
   width: 4px;
