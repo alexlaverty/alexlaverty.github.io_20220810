@@ -1,0 +1,27 @@
+---
+title:  "Busy"
+date:   2014-06-01 19:14:01
+image_directory: 2014-06-01
+image:
+   src: /assets/images/2014-06-01/1.jpg
+categories: ["manly-beach","surfing"]
+layout: post
+current: post
+class: post-template
+subclass: 'post tag-getting-started'
+
+navigation: True
+comments: True
+---
+<img src="/assets/images/2014-06-01/1.jpg" style="width:100%;height:auto;"/>
+<!--more-->
+
+<img src="/assets/images/2014-06-01/2.jpg" style="width:100%;height:auto;"/>
+
+<img src="/assets/images/2014-06-01/3.jpg" style="width:100%;height:auto;"/>
+
+<img src="/assets/images/2014-06-01/4.jpg" style="width:100%;height:auto;"/>
+
+<img src="/assets/images/2014-06-01/5.jpg" style="width:100%;height:auto;"/>
+
+<img src="/assets/images/2014-06-01/6.jpg" style="width:100%;height:auto;"/>

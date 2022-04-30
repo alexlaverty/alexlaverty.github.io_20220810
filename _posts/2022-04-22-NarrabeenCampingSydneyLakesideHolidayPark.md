@@ -9,6 +9,7 @@ tags: [
 image:
   src: /assets/img/narrabeen.png
   alt: Narrabeen
+youtubeId: ZRagVayXNBo
 ---
 
-{% include yt.html id="ZRagVayXNBo" %}
+{% include yt.html id=page.youtubeId %}

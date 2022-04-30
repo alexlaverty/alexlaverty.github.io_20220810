@@ -1,0 +1,38 @@
+---
+title: "Gabriel"
+date: 2014-12-08 19:14:01
+image_directory: 2014-12-08
+image:
+   src: /assets/images/2014-12-08/1.jpg
+categories: ["manly-beach","sunrise"]
+layout: post
+current: post
+class: post-template
+subclass: 'post tag-getting-started'
+
+navigation: True
+comments: True
+---
+For some reason I was awake this morning and I noticed a golden glow coming through the window so I grabbed my camera and raced to the roof to take some photos.
+There was also a double rainbow over the Manly Cricket Oval and I also received a phone call later that morning to find out my nephew had been born, what a day!
+So I dedicate these photos to my nephew Gabriel.
+
+<!-- <img src="/assets/images/2014-12-08/1.jpg" alt="drawing" style="width:100%;height:auto;"/> -->
+<img src="/assets/images/2014-12-08/1.jpg" alt="drawing" style="width:100%;height:auto;"/>
+
+<!--more-->
+
+<img src="/assets/images/2014-12-08/2.jpg" alt="drawing" style="width:100%;height:auto;"/>
+
+<img src="/assets/images/2014-12-08/3.jpg" alt="drawing" style="width:100%;height:auto;"/>
+
+<img src="/assets/images/2014-12-08/4.jpg" alt="drawing" style="width:100%;height:auto;"/>
+
+A new day and a new life is born
+<img src="/assets/images/2014-12-08/5.jpg" alt="drawing" style="width:100%;height:auto;"/>
+
+Golden Sets
+<img src="/assets/images/2014-12-08/6.jpg" alt="drawing" style="width:100%;height:auto;"/>
+
+Double Rainbow
+<img src="/assets/images/2014-12-08/7.jpg" alt="drawing" style="width:100%;height:auto;"/>

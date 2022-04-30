@@ -25,10 +25,14 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
-      {%- if page.image.src -%}
-      <div class="post-image">
-        <img src="{{ page.image.src }}" >
-      </div>  
+      
+      {% if page.hide_thumbnail or page.youtubeId or page.vimeoId %}
+      {%- else %}
+        {%- if page.image.src -%}
+        <div class="post-image">
+          <a href="{{ page.image.src }}" target="_blank"><img src="{{ page.image.src }}" ></a>
+        </div>  
+        {%- endif %}
       {%- endif %}
 
 
