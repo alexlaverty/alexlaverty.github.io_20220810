@@ -9,6 +9,9 @@ categories: [Laverty Family History]
 tags: [
   Nora Goldspring,
   ]
+image:
+  src: /assets/img/laverty/nora-laverty01.jpg
+hide_thumbnail: True
 ---
 
 

@@ -5,6 +5,9 @@ title: Denis Michael Laverty Obituary
 date: 1920-09-30 11:33:00 +0800
 categories: [Laverty Family History]
 tags: [Denis Laverty]
+image:
+  src: /assets/img/laverty/denis-michael-laverty-obituary.png
+hide_thumbnail: True
 ---
 
 Catholic Press (Sydney, NSW: 1895-1942),

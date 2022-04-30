@@ -10,6 +10,7 @@ tags: [
 image:
   src: /assets/img/underwater/thumbnail.png
   alt: Davinci Resolve
+hide_thumbnail: True
 ---
 
 ## Colour Grading Underwater Footage With DaVinci Resolve

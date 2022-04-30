@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Laverty reunion starts tomorrow
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
 date: 1989-12-12
 categories: [Laverty Family History]
 tags: [
   reunion
   ]
+image:
+  src: /assets/img/laverty/reunion-laverty-reunion-starts-tomorrow.jpg
 
+hide_thumbnail: True
 ---
 
 ![](/assets/img/laverty/reunion-laverty-reunion-starts-tomorrow.jpg)

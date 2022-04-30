@@ -2,10 +2,13 @@
 layout: post
 layout: post
 title: Denis Laverty Death
-
 date: 1961-08-26
 categories: [Laverty Family History]
 tags: [Denis Laverty]
+
+image:
+  src: /assets/img/laverty/denis-laverty-death-01.jpg
+hide_thumbnail: True
 ---
 
 <img src="/assets/img/laverty/denis-laverty-death-01.jpg" width="40%"/>

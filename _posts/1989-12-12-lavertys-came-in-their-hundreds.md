@@ -8,6 +8,10 @@ tags: [
   reunion
   ]
 
+image:
+  src: /assets/img/laverty/reunion-lavertys-came-in-their-hundreds.jpg
+
+hide_thumbnail: True
 ---
 
 ![](/assets/img/laverty/reunion-lavertys-came-in-their-hundreds.jpg)

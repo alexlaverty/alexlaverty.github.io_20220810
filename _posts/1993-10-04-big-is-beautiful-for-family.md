@@ -6,9 +6,9 @@ categories: [Laverty Family History]
 tags: [
   laverty
   ]
+image:
+  src: /assets/img/laverty/big-is-beautiful.jpg
 ---
-
-![](/assets/img/laverty/big-is-beautiful.jpg)
 
 Daily Examiner
 

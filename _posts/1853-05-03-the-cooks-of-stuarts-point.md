@@ -8,7 +8,10 @@ tags: [Johann Peter Koch]
 image:
   src: /assets/img/laverty/the-cooks-of-stuarts-point.jpg
   alt: The Cooks of Stuarts Point
+hide_thumbnail: True
 ---
+
+![](/assets/img/laverty/the-cooks-of-stuarts-point.jpg)
 
 ![](/assets/img/laverty/the-cooks-of-stuarts-point-02.jpg)
 

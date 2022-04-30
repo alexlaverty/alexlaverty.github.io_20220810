@@ -5,6 +5,9 @@ title: Michael Laverty and Sarah Jane Mccormick Immigration to Australia on the 
 date: 1865-01-30 11:33:00 +0800
 categories: [Laverty Family History]
 tags: [Michael Laverty, Sarah Jane McCormick]
+image:
+  src: /assets/img/laverty/michael-laverty-sarah-st-hilda-immigration.jpg
+hide_thumbnail: True
 ---
 
 List of Immigrants per ship : St Hilda

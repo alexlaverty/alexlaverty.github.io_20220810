@@ -10,8 +10,9 @@ tags: [
   Nora Goldspring,
   Sarah Mccormick,
   ]
-math: true
-mermaid: true
+image:
+  src: /assets/img/laverty/reunion-laverty-reunion.jpg
+hide_thumbnail: True
 ---
 
 ![](/assets/img/laverty/reunion-laverty-reunion.jpg)
