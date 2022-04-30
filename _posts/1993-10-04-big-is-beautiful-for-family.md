@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Big Is Beautiful For Family
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
 date: 1993-10-04
 categories: [Laverty Family History]
 tags: [
