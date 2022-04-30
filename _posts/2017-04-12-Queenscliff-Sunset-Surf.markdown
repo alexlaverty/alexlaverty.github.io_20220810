@@ -4,7 +4,7 @@ date:   2017-04-12 1:00:00
 image_directory: 2017-04-12
 image:
    src: /assets/images/2017-04-12/1.png
-categories: ["surfing"]
+categories: ["surfing","video"]
 layout: post
 current: post
 class: post-template

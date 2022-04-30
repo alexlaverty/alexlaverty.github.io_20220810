@@ -2,7 +2,7 @@
 layout: post
 title: Manly Beach, Opera House and Botanic Gardens 2022
 date: 2022-04-22
-categories: [travel]
+categories: [video]
 tags: [
   laverty
   ]

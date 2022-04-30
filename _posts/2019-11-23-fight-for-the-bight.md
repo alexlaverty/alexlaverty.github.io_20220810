@@ -1,7 +1,7 @@
 ---
 title:  "Fight For The Bight"
 date:   2019-11-23 1:00:00
-categories: ["manly-beach"]
+categories: ["manly-beach", "video"]
 layout: post
 current: post
 class: post-template
