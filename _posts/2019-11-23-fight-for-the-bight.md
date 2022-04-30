@@ -9,9 +9,7 @@ subclass: 'post tag-getting-started'
 navigation: True
 comments: True
 image:
-   src: /assets/images/2019-11-23/fftb.png
-image:
-  path: /assets/images/2019-11-23/fftb.png
+   src: /assets/img/thumbnails/_DonS7J-k_w-HD.jpg
 youtubeId: _DonS7J-k_w
 ---
 
