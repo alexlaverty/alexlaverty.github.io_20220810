@@ -10,7 +10,10 @@ tags: [
 image:
   src: /assets/img/laverty/len-laverty-telling-career.jpg
   alt: Len Laverty - Telling Career 
+hide_thumbnail: True
 ---
+
+![](/assets/img/laverty/len-laverty-telling-career.jpg)
 
 ## 'Which' bank provided Len Laverty with such a diverse working life?
 

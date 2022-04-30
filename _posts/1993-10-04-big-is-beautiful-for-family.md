@@ -8,7 +8,10 @@ tags: [
   ]
 image:
   src: /assets/img/laverty/big-is-beautiful.jpg
+hide_thumbnail: True
 ---
+
+![](/assets/img/laverty/big-is-beautiful.jpg)
 
 Daily Examiner
 
