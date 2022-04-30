@@ -105,3 +105,20 @@
 .social-media-list {
     float: right;
 }
+
+@media screen and (max-width: 400px) {
+    .sidebar {
+        display: none;
+    }
+    .post-header img{
+        max-height:200px;
+        // max-width:320px;
+        height:200px;
+        width:auto;
+        // opacity: 0.5;
+        // display: block;
+        // margin-left: auto;
+        // margin-right: auto;
+        
+    }
+  }
