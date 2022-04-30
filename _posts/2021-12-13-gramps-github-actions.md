@@ -3,7 +3,7 @@ layout: post
 title: Generating a Gramps Website with Github Actions Workflow
 
 date: 2021-12-12 11:33:00 +0800
-categories: [Gramps]
+categories: [tech]
 tags: [
   gramps,
   python,

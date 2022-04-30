@@ -3,7 +3,7 @@ layout: post
 title: Deploying Gramps on Github Pages Using Github Action Workflow
 
 date: 2021-12-12 11:33:00 +0800
-categories: [Gramps]
+categories: [tech]
 tags: [
   gramps,
   python,

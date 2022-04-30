@@ -3,7 +3,7 @@ layout: post
 title: Colour Correcting Underwater Footage With DaVinci Resolve
 
 date: 2022-04-25
-categories: [Video Editing]
+categories: [tech]
 tags: [
   laverty
   ]
