@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Mountains of Mourne
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
 date: 1896-01-30 11:33:00 +0800
 categories: []
 tags: []
