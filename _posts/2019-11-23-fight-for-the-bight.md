@@ -9,7 +9,7 @@ subclass: 'post tag-getting-started'
 navigation: True
 comments: True
 image:
-   src: /assets/img/thumbnails/_DonS7J-k_w-HD.jpg
+   src: /assets/img/thumbnails/bight.jpg
 youtubeId: _DonS7J-k_w
 ---
 
