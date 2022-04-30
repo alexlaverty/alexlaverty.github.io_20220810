@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Laverty Coat of Arms
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 2021-12-15
 categories: [Laverty Family History]
 tags: [

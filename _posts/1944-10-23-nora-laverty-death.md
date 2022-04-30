@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Nora Laverty Death
 author:
   name: Alex Laverty

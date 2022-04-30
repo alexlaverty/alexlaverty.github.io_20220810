@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Mountains of Mourne
 author:
   name: Alex Laverty

@@ -1,58 +1,39 @@
----
-layout: compress
-# Default layout
----
-
 <!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{% include lang.html %}
+  {%- include head.html -%}
 
-{% capture prefer_mode %}
-  {% if site.theme_mode %}
-    mode="{{ site.theme_mode }}"
-  {% endif %}
-{% endcapture %}
+  <body>
 
-<html lang="{{ site.lang }}"{{ prefer_mode }}>
 
-  {% include head.html %}
 
-  {% unless site.theme_mode %}
-    {% include mode-toggle.html %}
-  {% endunless %}
+    {%- include header.html -%}
 
-  <body data-spy="scroll" data-target="#toc">
 
-    {% include sidebar.html %}
 
-    {% include topbar.html %}
-
-    <div id="main-wrapper">
-      <div id="main">
-
-        {{ content }}
-
-        {% include footer.html %}
+    <main class="page-content" aria-label="Content">
+      <div class="sidebar">
+        <ul>
+          <div class="trigger">
+            <ul>
+              <li><a href="/">Home</a></li>
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+              <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+          </div>
+        </ul>
 
       </div>
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
 
-      {% include search-results.html %}
-
-    </div> <!-- #main-wrapper -->
-
-    {% if page.mermaid %}
-      {% include mermaid.html %}
-    {% endif %}
-
-    <div id="mask"></div>
-
-    <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
-    {% include search-loader.html %}
-
-    {% include js-selector.html %}
+    <!-- {%- include footer.html -%} -->
 
   </body>
 

@@ -1,8 +1,7 @@
 ---
+layout: post
 title: J Peter Cook Obituary
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1909-11-27
 categories: [Laverty Family History]
 tags: [Johann Peter Koch]

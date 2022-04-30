@@ -1,8 +1,8 @@
 ---
+layout: post
+layout: post
 title: Denis Laverty Death
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1961-08-26
 categories: [Laverty Family History]
 tags: [Denis Laverty]

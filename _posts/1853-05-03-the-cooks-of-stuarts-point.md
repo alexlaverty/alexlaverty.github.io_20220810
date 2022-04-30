@@ -1,8 +1,7 @@
 ---
+layout: post
 title: The Cooks of Stuarts Point
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1853-05-03
 categories: [Laverty Family History]
 tags: [Johann Peter Koch]

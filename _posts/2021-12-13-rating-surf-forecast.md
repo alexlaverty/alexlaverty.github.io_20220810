@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Creating a Daily Surf Rating Report
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 2021-12-12 11:33:00 +0800
 categories: [programming]
 tags: [

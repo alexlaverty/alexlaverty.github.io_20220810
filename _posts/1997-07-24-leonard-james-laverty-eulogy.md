@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Leonard James Laverty - Eulogy
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1997-07-24
 categories: [Laverty Family History]
 tags: [Leonard Laverty]

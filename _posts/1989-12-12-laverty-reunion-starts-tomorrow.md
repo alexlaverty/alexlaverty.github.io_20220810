@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Laverty reunion starts tomorrow
 author:
   name: Alex Laverty

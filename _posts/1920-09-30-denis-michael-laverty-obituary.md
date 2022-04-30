@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Denis Michael Laverty Obituary
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1920-09-30 11:33:00 +0800
 categories: [Laverty Family History]
 tags: [Denis Laverty]

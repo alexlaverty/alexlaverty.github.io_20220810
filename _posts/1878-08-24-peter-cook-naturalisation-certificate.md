@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Peter Cook Naturalisation Certificate
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1878-08-24
 categories: [Laverty Family History]
 tags: [Johann Peter Koch]

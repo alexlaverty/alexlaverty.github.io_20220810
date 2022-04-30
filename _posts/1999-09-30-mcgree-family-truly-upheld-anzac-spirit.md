@@ -1,8 +1,7 @@
 ---
+layout: post
 title: McGree Family Truly Upheld ANZAC Spirit
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1999-09-30
 categories: [Laverty Family History]
 tags: [

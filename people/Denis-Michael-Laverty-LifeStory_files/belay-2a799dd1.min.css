@@ -1,2 +1,0 @@
-.ropebag{bottom:0;left:0;pointer-events:none;position:absolute;right:0;top:0;z-index:1}.ropebag .svg{display:block;height:100%;position:absolute;width:100%}#ropebagSkinnyFamily .svg .path{stroke:var(--ui-genderless-connection-color)}.ropebag .svg .path.pathAnimate{animation:dash 250ms linear forwards}@keyframes dash{from{stroke-dasharray:0 var(--L)}to{stroke-dasharray:var(--L) var(--L)}}
-/*# sourceMappingURL=belay-2a799dd1.min.css.map */

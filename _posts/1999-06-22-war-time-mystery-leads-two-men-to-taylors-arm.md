@@ -1,8 +1,7 @@
 ---
+layout: post
 title: War Time Mystery Leads Two Men To Taylors Arm
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1999-06-22
 categories: [Laverty Family History]
 tags: [

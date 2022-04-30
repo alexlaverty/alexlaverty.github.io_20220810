@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Planning Begins for McGree Photo Presentation
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1999-09-29
 categories: [Laverty Family History]
 tags: [

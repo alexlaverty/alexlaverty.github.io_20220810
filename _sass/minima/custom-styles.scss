@@ -1,0 +1,103 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+/*# CUSTOM CSS  */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    /* background-color: #2196F3;
+    padding: 10px; */
+    grid-gap: 15px;
+    
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    // border: 1px solid rgba(0, 0, 0, 0.8);
+    
+    font-size: 30px;
+    text-align: center;
+    width: 320px;
+}
+
+// .grid-item img{
+//     width: 320px;
+// }
+
+.grid-item img{
+    max-height:240px;
+    max-width:320px;
+    height:240px;
+    width:auto;
+}
+
+
+.post-avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float:left;
+    margin-right: 10px;
+}
+
+.post-wrapper {
+    vertical-align: top;
+    text-align: left;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.post-wrapper a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.post-link {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.post-thumbnail {
+    margin-bottom: 10px;
+}
+
+
+.sidebar{
+    font-size: 20px;
+	// position: absolute; //this can be changed to fixed and it will still work
+    float: left;
+	height: 100vh;
+
+	// left: 0;
+	width: 150px;
+    // border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.post-header img{
+    max-height:300px;
+    // max-width:320px;
+    height:300px;
+    width:auto;
+    // opacity: 0.5;
+    // display: block;
+    // margin-left: auto;
+    // margin-right: auto;
+    
+}

@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Len Laverty - Telling Career 
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 2007-06-26
 categories: [Laverty Family History]
 tags: [

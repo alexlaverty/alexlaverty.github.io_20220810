@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Lavertys Came In Their Hundreds
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1989-12-12 11:33:00 +0800
 categories: [Laverty Family History]
 tags: [

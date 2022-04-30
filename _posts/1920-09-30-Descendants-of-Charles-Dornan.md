@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Descendants of Charles Dornan
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1920-09-30 11:33:00 +0800
 categories: []
 tags: [Denis Laverty]

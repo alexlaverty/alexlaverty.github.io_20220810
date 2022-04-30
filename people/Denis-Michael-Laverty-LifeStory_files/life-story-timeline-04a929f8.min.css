@@ -1,2 +1,0 @@
-.personViewPages .lifeStory .storylineHasTrail::after{top:10px}.personViewPages .lifeStory .storylineHasTrail::after{height:calc(100% + 30px)}.personViewPages .lifeStory .lifeStorySec:not(.storylineHasTrail)~.lifeStorySec .storylineHasTrail::after,.personViewPages .lifeStory .timelineItemLastWithDate~.timelineItem::after{display:none}
-/*# sourceMappingURL=life-story-timeline-04a929f8.min.css.map */

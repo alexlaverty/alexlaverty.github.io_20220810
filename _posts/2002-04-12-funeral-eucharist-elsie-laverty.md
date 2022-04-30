@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Funeral Eucharist Elsie Pearl Laverty
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 2002-04-12 11:33:00 +0800
 categories: [Laverty Family History]
 tags: [

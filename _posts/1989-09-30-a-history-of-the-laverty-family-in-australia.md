@@ -1,8 +1,8 @@
 ---
+layout: post
+layout: post
 title: A History of the Laverty Family in Australia
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 1989-09-30
 categories: [Laverty Family History]
 tags: [reunion]

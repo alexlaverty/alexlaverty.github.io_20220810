@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Big Is Beautiful For Family
 author:
   name: Alex Laverty

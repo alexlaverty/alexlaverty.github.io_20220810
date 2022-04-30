@@ -1,18 +1,18 @@
 ---
+layout: post
 title: Deploying Gramps on Github Pages Using Github Action Workflow
-author:
-  name: Alex Laverty
-  link: https://alexlaverty.github.io
+
 date: 2021-12-12 11:33:00 +0800
 categories: [Gramps]
 tags: [
   gramps,
   python,
   ]
+image:
+  src: /assets/img/deploying-gramps-on-github-pages-using-github-action-workflow/2021-10-11-21-51-24.png
 ---
 
 
-![](/assets/img/deploying-gramps-on-github-pages-using-github-action-workflow/2021-10-11-21-51-24.png)
 
 - [Introduction](#introduction)
 - [What are the benefits of doing this?](#what-are-the-benefits-of-doing-this)
