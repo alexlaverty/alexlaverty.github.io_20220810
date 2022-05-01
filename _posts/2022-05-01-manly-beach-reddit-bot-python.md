@@ -8,9 +8,9 @@ tags: [
   laverty
   ]
 image:
-  src: /assets/img/underwater/thumbnail.png
-  alt: Davinci Resolve
-hide_thumbnail: True
+  src: /assets/img/reddit-bot/thumbnail.png
+  alt: Manly Beach Reddit Bot
+hide_thumbnail: False
 ---
 
 I was surfing Reddit and realised there wasn't a Manly Beach subreddit, so I decided to create one :
@@ -27,9 +27,9 @@ So I started where all good projects start by creating a repository on github.co
 
 I decided to write the script in Python and mainly used the following python libraries :
 
-* Pandas for data manipulation and analysis
-* BeautifulSoup for parsing and extracting information from html 
-* Praw for sending requests to the Reddit API
+* [Pandas](https://pandas.pydata.org/) for data manipulation and analysis
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for parsing and extracting information from html 
+* [Praw](https://praw.readthedocs.io/en/stable/) for sending requests to the Reddit API
 
 First I went looking for websites that had articles relevant to Manly Beach and came up with the following list :
 
