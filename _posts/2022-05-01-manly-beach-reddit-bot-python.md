@@ -145,7 +145,7 @@ def publish_to_reddit():
                 print("POSTED TO REDDIT!")
                 csv.at[index,'posted'] = "True"
                 csv.to_csv(csv_file, index=False)
-                print("Waiting for random ammount of seconds before posting again : {}".format(str(wait_for)))
+                print("Waiting for random amount of seconds before posting again : {}".format(str(wait_for)))
                 sleep(wait_for)
             except TypeError as error:
                 print(error)
@@ -164,7 +164,7 @@ csv.at[index,'posted'] = "True"
 
 `title[:300]` will truncate the reddit post title to 300 characters because that's the limit for the title length, anything over that will throw an error.
 
-Reddit will throttle you and return errors if you try and post too quickly so I have added in some code to wait for a random ammount of time between 10 and 15 minutes before attempting to post again :
+Reddit will throttle you and return errors if you try and post too quickly so I have added in some code to wait for a random amount of time between 10 and 15 minutes before attempting to post again :
 
 ```
 wait_for=randint(600, 900)
@@ -274,3 +274,6 @@ If you want to see a website added to the list to be posted to the subreddit lea
 If you want to have a go at coding it yourself feel free to raise a pull request here :
 
 <https://github.com/alexlaverty/manlybeach-reddit-bot/pulls>
+
+So if you wonder why I have so many posts in the Manly Beach subreddit, it's because I automated the process, work smarter not harder ; )
+
