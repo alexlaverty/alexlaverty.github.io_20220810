@@ -6,4 +6,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+description: Alex Laverty - Tech articles, Manly Beach photography and videos.
 ---
