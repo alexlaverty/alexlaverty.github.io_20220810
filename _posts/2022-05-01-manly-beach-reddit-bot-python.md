@@ -253,7 +253,11 @@ on:
     - cron: '0 */12 * * *' # runs every 12 hours
 ```
 
-The reddit.yaml file is pretty self explanatory, the job checks out the repository, installs the Python dependecies, runs the script and passes in the Reddit api secrets which were defined as Github secrets, after the script runs if there are any updates to the files, for example new url's have been added to the `data.csv` git will commit those changes to the github repository, this is to persist the status of whether the url's have been posted to reddit for the next time the job runs, this will prevent duplicate articles being posted.
+The reddit.yaml file is pretty self explanatory, the job checks out the repository, installs the Python dependecies, runs the script and passes in the Reddit api secrets which were defined as Github secrets :
+
+<img src="/assets/img/reddit-bot/github-secrets.png" alt="Github Secrets">
+
+after the script runs if there are any updates to the files, for example new url's have been added to the `data.csv` git will commit those changes to the github repository, this is to persist the status of whether the url's have been posted to reddit for the next time the job runs, this will prevent duplicate articles being posted.
 
 If you go to the repositories Actions tab you can see the build logs and status history of previous builds :
 

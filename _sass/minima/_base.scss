@@ -6,13 +6,12 @@ html {
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+blockquote, p, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 
 }
-
 
 
 /**
@@ -44,6 +43,11 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
+}
+
+p {
+  margin-bottom: 16px;
+  padding: 0;
 }
 
 hr {
