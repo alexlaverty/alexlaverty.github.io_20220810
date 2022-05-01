@@ -65,7 +65,7 @@ Right click an articles title and click `inspect` which the inspecter shows up y
 <img src="/assets/img/reddit-bot/inspect.png">
 
 
-in this case the the articles element is a H3 with a class called `story__headline`, we can then query for this element using the following :
+in this case the articles element is a H3 with a class called `story__headline`, we can then query for this element using the following :
 
 ```Python3
 headlines = soup.find_all('h3', {'class' : 'story__headline'})
