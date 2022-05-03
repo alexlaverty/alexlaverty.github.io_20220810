@@ -5,7 +5,9 @@ title: A History of the Laverty Family in Australia
 
 date: 1989-09-30
 categories: [Laverty Family History]
-tags: [reunion]
+image:
+   src: /assets/img/laverty/history-of-the-laverty-family.jpg
+   alt: A History of the Laverty Family in Australia
 ---
 
 - [FORWARD;](#forward)

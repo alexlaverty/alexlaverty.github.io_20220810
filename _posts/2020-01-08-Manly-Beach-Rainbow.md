@@ -47,7 +47,9 @@ post_images:
 
 {% for post_image in page.post_images %}
 <figure>
-  <img src="{{ post_image.src }}" alt="{{ post_image.description }}" title="{{ post_image.description }}" >
+  <a href="{{ post_image.src }}" target="_blank">
+    <img src="{{ post_image.src }}" alt="{{ post_image.description }}" title="{{ post_image.description }}" >
+  </a>
   <figcaption>{{ post_image.description }}</figcaption>
 </figure>
 {% endfor %}
