@@ -29,8 +29,49 @@
     max-height:240px;
     max-width:320px;
     height:240px;
-    width:auto;
+    width: auto; 
 }
+
+// .grid-item {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     overflow: hidden
+// }
+// .grid-item img {
+//     flex-shrink: 0;
+//     max-height:240px;
+//     max-width:320px;
+// }
+
+// .grid-item img{
+//     height: auto; 
+//     width: auto; 
+//     max-height:240px;
+//     max-width:320px;
+
+// }
+
+
+
+// .grid-item img{
+//     /* Set rules to fill background */
+//     max-height: 100%;
+
+//     /* Set up proportionate scaling */
+//     height: auto;
+
+//     /* Set up positioning */
+//     position: fixed;
+
+//     /* Align horizontally */
+//     left:0;
+//     right:0;
+//     margin:0 auto;  
+// }
+
+
+ 
 
 
 .post-avatar img{

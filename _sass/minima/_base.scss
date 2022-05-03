@@ -50,6 +50,8 @@ p {
   padding: 0;
 }
 
+
+
 hr {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
@@ -82,7 +84,9 @@ figure > img {
 }
 
 figcaption {
-  font-size: $small-font-size;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 
