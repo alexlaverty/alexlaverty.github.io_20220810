@@ -8,6 +8,8 @@ tags: [
   python,
   surf
   ]
+image:
+  src: /assets/img/rating-surf-forecast/2021-10-10-18-59-48.png
 ---
 
 - [Introduction](#introduction)

@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Generating a Gramps Website with Github Actions Workflow
-
 date: 2021-12-12 11:33:00 +0800
 categories: [tech]
 tags: [
   gramps,
   python,
   ]
+image:
+  src: /assets/img/deploying-gramps-on-github-pages-using-github-action-workflow/2021-10-11-21-51-24.png
 ---
 
 - [Introduction](#introduction)
