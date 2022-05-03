@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Deploying Gramps on Github Pages Using Github Action Workflow
-
 date: 2021-12-12 11:33:00 +0800
 categories: [tech]
 tags: [
@@ -10,9 +9,8 @@ tags: [
   ]
 image:
   src: /assets/img/deploying-gramps-on-github-pages-using-github-action-workflow/2021-10-11-21-51-24.png
+permalink: /blog/deploying-gramps-on-github-pages-using-github-action-workflow
 ---
-
-
 
 - [Introduction](#introduction)
 - [What are the benefits of doing this?](#what-are-the-benefits-of-doing-this)
