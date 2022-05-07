@@ -558,7 +558,7 @@ So maybe I need to go and read up a bit more on Vegemite.... this website says t
 
 <https://firstthingsfirst.com.au/Blog/Is-Vegemite-good-for-you>
 
-"packed with B vitamins, containing a great big dollop of niacin, riboflavin and thiamine. It also has 50 percent of the recommended daily intake for folate. You’ll also get a good dose of calcium, magnesium, potassium, iron and selenium. These vitamins are known to help keep the skin and eyes healthy, improve cell health, boost the digestive system and keep your nerves in check."
+>"packed with B vitamins, containing a great big dollop of niacin, riboflavin and thiamine. It also has 50 percent of the recommended daily intake for folate. You’ll also get a good dose of calcium, magnesium, potassium, iron and selenium. These vitamins are known to help keep the skin and eyes healthy, improve cell health, boost the digestive system and keep your nerves in check."
 
 Next I then went to a diet tracker called Cronometer which allows you to track calories, fat, protein etc like a normal diet tracker does but in addition it also allows you to track vitamin and mineral content in foods :
 
