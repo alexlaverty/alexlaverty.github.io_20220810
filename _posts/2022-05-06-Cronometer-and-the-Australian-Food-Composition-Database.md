@@ -586,7 +586,7 @@ Side note, I found a cool little shortcut in Chrome browser which will take a fu
 * Type the word screenshot.
 ```
 
-So if you wanted a super nutrient dense healhty meal plan this is one way to approach it from a data driven perspective.
+So if you wanted a super nutrient dense healthy meal plan this is one way to approach it from a data driven perspective.
 
 For future improvements I would like to try scraping this nutritional database and then passing the foods into these machine learning algorithms to optimize the amounts of each ingredient :
 
