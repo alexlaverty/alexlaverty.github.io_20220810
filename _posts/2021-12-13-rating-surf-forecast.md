@@ -29,9 +29,7 @@ I like to go to the beach and often find myself checking the Sydney surf forecas
 
 It can take a little while to look at each day and use my mouse to hover over the chart to see wind speed and wave height etc and check the second chart for swell period and direction.
 
-I wanted to see if I could write a script that would scrape this data for me, put it into a table, apply my personal surf condition preferences to the table and also filter out days where the surf was bad and make it accessible on this website, the end result is this report :
-
-<https://alexlaverty.github.io/surf/index.html>
+I wanted to see if I could write a script that would scrape this data for me, put it into a table, apply my personal surf condition preferences to the table and also filter out days where the surf was bad and make it accessible a website, 
 
 Green is good, red is bad, the more green cells on a row, the better the conditions will be.
 
@@ -417,7 +415,6 @@ text_file.close()
 
 If all goes well you should be able to open the index.html and it should look something like 
 
-https://alexlaverty.github.io/surf/index.html
 
 ![](/assets/img/rating-surf-forecast/2021-10-10-18-59-48.png)
 
