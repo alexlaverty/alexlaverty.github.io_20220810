@@ -33,8 +33,15 @@ layout: default
         {%- if page.image.src -%}
         <div class="post-image">
           <figure>
-            <a href="{{ page.image.src }}" target="_blank"><img src="{{ page.image.src }}" alt="{{ page.image.alt }}" title="{{ page.image.alt }}" ></a>
-            <figcaption>{{ page.image.alt }}</figcaption>
+            <a href="{{ page.image.src | absolute_url }}" target="_blank"><img src="{{ page.image.src | absolute_url }}"
+              {%- if page.image.alt -%}
+              alt="{{ page.image.alt }}" 
+              title="{{ page.image.alt }}" 
+              {%- endif %}
+              ></a>
+              {%- if page.image.alt -%}
+              <figcaption>{{ page.image.alt }}</figcaption>
+              {%- endif %}
           </figure>
         </div>  
 
