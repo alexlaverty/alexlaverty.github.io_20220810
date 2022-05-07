@@ -235,7 +235,7 @@ for micronutrient in micronutrients :
     foods.columns = column_names
     top_foods = pd.concat([top_foods, foods])
 
-print(top_foods.sort_values(["micronutrient","value"], ascending=False).to_string(index=False) )
+print(top_foods[["micronutrient","foodname","value"]].sort_values(["micronutrient","value"], ascending=[True,False]))
 ```
 
 The Top 10 Foods for each essential micronutrient from the Australian Food Composition Database as of todays date `07/05/2022` looks like this :
@@ -530,6 +530,25 @@ PS D:\src\nutrient-data> python .\app.py
 943                       Zinc (Zn) (mg)  Mutton, boneless dice or strips, shoulder, lea...      8.9
 945                       Zinc (Zn) (mg)  Mutton, boneless dice or strips, shoulder, sem...     8.76
 ```
+
+The funny thing is if take the above list and group them by name and get a count and sort it, the food that occurs the most in this list is Vegemite :
+
+```
+foodname
+Spread, yeast, vegemite                  8
+Yeast, dry powder                        6
+Spread, yeast, marmite                   5
+Lamb, liver, grilled, no added fat       5
+Chicken, liver, raw                      4
+Wheat bran, unprocessed, uncooked        4
+Chicken, liver, fried, added butter      4
+Abalone, green lip, aquacultured, raw    4
+Paprika, dry powder                      4
+Milk, cow, powder, skim                  4
+```
+
+<img src="/assets/img/nutrition/vegemite.png">
+
 
 I then went to this diet tracker called Cronometer which will show you calories, fat, protein etc but also displays micronutrient values :
 
