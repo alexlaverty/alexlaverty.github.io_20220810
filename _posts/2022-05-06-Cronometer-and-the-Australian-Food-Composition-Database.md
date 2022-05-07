@@ -238,6 +238,14 @@ for micronutrient in micronutrients :
 print(top_foods[["micronutrient","foodname","value"]].sort_values(["micronutrient","value"], ascending=[True,False]))
 ```
 
+If you see foods in the list that you don't like you can drop those foods from the dataframe for example :
+
+```
+exclude_foods = ['Abalone','liver','Milk','wheat','Mutton','Dairy','Wheat']
+
+df = df[df["Food Name"].str.contains("|".join(exclude_foods))==False]
+```
+
 The Top 10 Foods for each essential micronutrient from the Australian Food Composition Database as of todays date `07/05/2022` looks like this :
 
 ```
