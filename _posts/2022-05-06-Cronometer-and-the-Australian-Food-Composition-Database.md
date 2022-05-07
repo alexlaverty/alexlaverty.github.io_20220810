@@ -14,7 +14,7 @@ I thought I would have a play around with the [Australian Food Composition Datab
 The spreadsheet can be downloaded here :
 <https://www.foodstandards.gov.au/science/monitoringnutrients/afcd/Pages/downloadableexcelfiles.aspx>
 
-I used Python and my favourite library [Pandas](https://pandas.pydata.org/) to read in the spreadsheet file :
+I used [Python](https://www.python.org/) and my favourite library [Pandas](https://pandas.pydata.org/) to read in the spreadsheet file :
 
 
 ```
@@ -533,7 +533,14 @@ PS D:\src\nutrient-data> python .\app.py
 
 The funny thing is if take the above list and group them by name and get a count and sort it, the food that occurs the most in this list is Vegemite :
 
+<img src="/assets/img/nutrition/vegemite.png">
+
+Here is the Top 10 Foods that occur in the above table :
+
 ```
+df2 = top_foods.groupby(['foodname'])['foodname'].count().sort_values(ascending=False) 
+print(df2.head(10))
+
 foodname
 Spread, yeast, vegemite                  8
 Yeast, dry powder                        6
@@ -547,17 +554,21 @@ Paprika, dry powder                      4
 Milk, cow, powder, skim                  4
 ```
 
-<img src="/assets/img/nutrition/vegemite.png">
+So maybe I need to go and read up a bit more on Vegemite.... this website says the following :
 
+<https://firstthingsfirst.com.au/Blog/Is-Vegemite-good-for-you>
 
-I then went to this diet tracker called Cronometer which will show you calories, fat, protein etc but also displays micronutrient values :
+"packed with B vitamins, containing a great big dollop of niacin, riboflavin and thiamine. It also has 50 percent of the recommended daily intake for folate. You’ll also get a good dose of calcium, magnesium, potassium, iron and selenium. These vitamins are known to help keep the skin and eyes healthy, improve cell health, boost the digestive system and keep your nerves in check."
+
+Next I then went to a diet tracker called Cronometer which allows you to track calories, fat, protein etc like a normal diet tracker does but in addition it also allows you to track vitamin and mineral content in foods :
 
 <https://cronometer.com/>
 
-And I added in one of the top sources of each micronutrient into cronometer, once I'd added each food into cronometer it ended up looking like this :
+I added in one of the top sources of each micronutrient into cronometer, once I'd added each food into cronometer it ended up looking like this :
 
 <a href="/assets/img/nutrition/cronometer.com.png"><img src="/assets/img/nutrition/cronometer.com.png"></a>
 
+At a quick glance the day of eating consists of Seafood, nuts, herbs and vegetables. I'm sure that one could easily make some kind of mediterranean dish using these ingredients.
 
 Side note, I found a cool little shortcut in Chrome browser which will take a full screenshot of a website, which is how I took the above screenshot :
 
@@ -567,7 +578,7 @@ Side note, I found a cool little shortcut in Chrome browser which will take a fu
 * Type the word screenshot.
 ```
 
-So if you wanted a super nutrient dense meal plan for very few calories this is one way to approach it.
+So if you wanted a super nutrient dense healhty meal plan this is one way to approach it from a data driven perspective.
 
 For future improvements I would like to try scraping this nutritional database and then passing the foods into these machine learning algorithms to optimize the amounts of each ingredient :
 
