@@ -69,16 +69,16 @@ def add_marker(data):
                 icon=folium.Icon(color='green', icon="user"),
             ).add_to(m)      
 
-    # if data["deathplace"]:
-    #     coordinates_death = get_coordinates(data["deathplace"])
-    #     if coordinates_death:
-    #         label_death = "<b>Death</b>\n" + data["fullname"] + "\n" + str(data["deathyear"])
-    #         #print(coordinates_death)
-    #         folium.Marker(
-    #             location=[coordinates_death[0]["lat"], coordinates_death[0]["lon"]],
-    #             popup=folium.Popup(label_death, show=True),
-    #             icon=folium.Icon(color='red', icon="plus"),
-    #         ).add_to(m)       
+    if data["deathplace"]:
+        coordinates_death = get_coordinates(data["deathplace"])
+        if coordinates_death:
+            label_death = "<b>Death</b>\n" + data["fullname"] + "\n<b>" + str(data["deathyear"]) + "</b>\n" + data["deathplace"]
+            #print(coordinates_death)
+            folium.Marker(
+                location=[coordinates_death[0]["lat"], coordinates_death[0]["lon"]],
+                popup=folium.Popup(label_death, show=True),
+                icon=folium.Icon(color='red', icon="plus"),
+            ).add_to(m)       
 
     if data["burialplace"]:
         coordinates_burial = get_coordinates(data["burialplace"])
@@ -139,6 +139,7 @@ def process_person(element):
             "age": age,
             "fullname": fullname,   
         }
+
     return data
 
 
