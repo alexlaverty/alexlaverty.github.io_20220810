@@ -336,7 +336,7 @@ df_wave = df_wave.merge(df_wind, how='left', on=['hour','minute'])
 
 Now that we have a dataframe we our wave forecast data we can then export it as a html file and apply some colour styling to it
 
-Configuring some CSS styling and colors 
+Configuring some [CSS styling](https://www.scaler.com/topics/css/css-color/) and colors 
 
 ```python
 cell_hover = {  # for row hover use <tr> instead of <td>
